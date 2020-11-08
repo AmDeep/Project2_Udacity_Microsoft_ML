@@ -1,0 +1,42 @@
+2020-11-08 02:02:29,403|azureml|DEBUG|Execute Job Release Inputs:: kwargs: {'disable_output_upload': True}, track_folders: None, deny_list: None, directories_to_watch: []
+2020-11-08 02:02:29,403|azureml.history._tracking.PythonWorkingDirectory|DEBUG|Execution target type: batchai
+2020-11-08 02:02:29,404|azureml.history._tracking.PythonWorkingDirectory|DEBUG|Failed to import pyspark with error: No module named 'pyspark'
+2020-11-08 02:02:29,404|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Pinning working directory for filesystems: ['pyfs']
+2020-11-08 02:02:29,503|azureml.core.authentication.TokenRefresherDaemon|DEBUG|Starting daemon and triggering first instance
+2020-11-08 02:02:29,512|azureml._restclient.clientbase|INFO|Created a worker pool for first use
+2020-11-08 02:02:29,512|azureml.core.authentication|DEBUG|Time to expire 1814327.48768 seconds
+2020-11-08 02:02:29,512|azureml._restclient.service_context|DEBUG|Created a static thread pool for ServiceContext class
+2020-11-08 02:02:29,512|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:02:29,512|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:02:29,512|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:02:29,512|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:02:29,513|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:02:29,513|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:02:29,513|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:02:29,549|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_featurize_tr.RunHistoryFacade.RunClient.get-async:False|DEBUG|[START]
+2020-11-08 02:02:29,549|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_featurize_tr.RunHistoryFacade.RunClient|DEBUG|ClientBase: Calling get with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}
+2020-11-08 02:02:29,623|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_featurize_tr.RunHistoryFacade.RunClient.get-async:False|DEBUG|[STOP]
+2020-11-08 02:02:29,624|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_featurize_tr|DEBUG|Constructing run from dto. type: azureml.scriptrun, source: None, props: {'_aml_system_scenario_identification': 'Remote.Featurization.Transform', '_azureml.ComputeTargetType': 'amlcompute', 'ContentSnapshotId': '8f718b92-478d-41db-9914-c2bd004fa267', 'ProcessInfoFile': 'azureml-logs/process_info.json', 'ProcessStatusFile': 'azureml-logs/process_status.json', 'ProblemInfoJsonString': '{"dataset_num_categorical": 0, "is_sparse": true, "subsampling": false, "dataset_classes": 2, "dataset_features": 132, "dataset_samples": 29655, "single_frequency_class_detected": false}', 'feature_skus': 'automatedml_sdk_guardrails'}
+2020-11-08 02:02:29,624|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_featurize_tr.RunContextManager|DEBUG|Valid logs dir, setting up content loader
+2020-11-08 02:02:29,625|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:02:29,625|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:02:29,625|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:02:29,625|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:02:29,625|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:02:29,625|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:02:29,625|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:02:29,626|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:02:29,659|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_featurize_tr.RunHistoryFacade.RunClient.get-async:False|DEBUG|[START]
+2020-11-08 02:02:29,660|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_featurize_tr.RunHistoryFacade.RunClient|DEBUG|ClientBase: Calling get with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}
+2020-11-08 02:02:29,720|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_featurize_tr.RunHistoryFacade.RunClient.get-async:False|DEBUG|[STOP]
+2020-11-08 02:02:29,721|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_featurize_tr|DEBUG|Constructing run from dto. type: azureml.scriptrun, source: None, props: {'_aml_system_scenario_identification': 'Remote.Featurization.Transform', '_azureml.ComputeTargetType': 'amlcompute', 'ContentSnapshotId': '8f718b92-478d-41db-9914-c2bd004fa267', 'ProcessInfoFile': 'azureml-logs/process_info.json', 'ProcessStatusFile': 'azureml-logs/process_status.json', 'ProblemInfoJsonString': '{"dataset_num_categorical": 0, "is_sparse": true, "subsampling": false, "dataset_classes": 2, "dataset_features": 132, "dataset_samples": 29655, "single_frequency_class_detected": false}', 'feature_skus': 'automatedml_sdk_guardrails'}
+2020-11-08 02:02:29,721|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_featurize_tr.RunContextManager|DEBUG|Valid logs dir, setting up content loader
+2020-11-08 02:02:29,722|azureml.WorkerPool|DEBUG|[START]
+2020-11-08 02:02:29,722|azureml.TrackFolders|DEBUG|[START]
+2020-11-08 02:02:29,722|azureml|DEBUG|Executing history release.
+2020-11-08 02:02:29,722|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Uploading tracked directories: [], excluding ['azureml-logs/driver_log']
+2020-11-08 02:02:29,722|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Calling track for pyfs
+2020-11-08 02:02:29,722|azureml.TrackFolders|DEBUG|[STOP]
+2020-11-08 02:02:29,722|azureml.HistoryTrackingWorkerPool.WorkerPoolShutdown|DEBUG|[START]
+2020-11-08 02:02:29,722|azureml.HistoryTrackingWorkerPool.WorkerPoolShutdown|DEBUG|[STOP]
+2020-11-08 02:02:29,722|azureml.WorkerPool|DEBUG|[STOP]
