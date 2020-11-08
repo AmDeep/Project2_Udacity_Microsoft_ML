@@ -1,5 +1,5 @@
 # Operationalizing Machine Learning
-======
+***
 ## An overview of the project
 An Architectural Diagram
 A short description of how to improve the project in the future
