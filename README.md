@@ -1,12 +1,23 @@
 # Operationalizing Machine Learning
 ***
+This project shows the code, images and results of an operationalizing project using Azure ML Studio, Azure SDK and Swagger.
 ## An overview of the project
-An Architectural Diagram
+***
+This project first begins with uploading the dataset and using the AutoML function on Azure to generate the best model using a metric and ending criteria. The model is then deployed using Azure ACI to generate a swagger URI and REST API endpoint. The dataset used for this project is obtained from the direct marketing campaigns of a company which intends to predict whether a client will accept a term deposit or not. Using Azure and its workspace, this project looks at creating a cloud based machine learning model, from deployment to consumption and finally publication. Commands for the deployment, processing and endpoint results are executed using Git Bash. The image in the next section shows the steps and is followed by a description of the steps accompanied by useful figures.
+## Architectural Diagram
+![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/screen-shot-2020-09-15-at-12.36.11-pm.png)
+## Step I:- Uploading Data and Authentication
+## Step II:- Using AutoML and Generating Model
+## Step III:- Using AutoML and Generating Model
+## Step IV:- Model Deployment
+## Step V:- Enable Logging and Consuming Endpoints
+## Step VI:- Jupyter Notebook Coding
+## Step VII:- Publishing a Pipeline
+
 A short description of how to improve the project in the future
 Screenshots required with a short description to demonstrate key steps
 A link to the screencast video on YouTube (or a similar alternative streaming service)
-## Architectural Diagram
-![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/screen-shot-2020-09-15-at-12.36.11-pm.png)
+
 ![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image1.PNG)
 ![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image2.PNG)
 ![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image3.PNG)
