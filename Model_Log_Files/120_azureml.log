@@ -1,0 +1,440 @@
+2020-11-08 02:00:21,697|azureml|DEBUG|Inputs:: kwargs: {'OutputCollection': True, 'EnableMLflowTracking': True, 'snapshotProject': True, 'only_in_process_features': True, 'skip_track_logs_dir': True}, track_folders: None, deny_list: None, directories_to_watch: []
+2020-11-08 02:00:21,698|azureml.history._tracking.PythonWorkingDirectory|DEBUG|Execution target type: batchai
+2020-11-08 02:00:21,706|azureml.history._tracking.PythonWorkingDirectory|DEBUG|Failed to import pyspark with error: No module named 'pyspark'
+2020-11-08 02:00:21,706|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Pinning working directory for filesystems: ['pyfs']
+2020-11-08 02:00:24,943|azureml.core.run|DEBUG|Adding new factory <function AutoMLRun._from_run_dto at 0x7f99177d5950> for run source automl
+2020-11-08 02:00:24,954|azureml.core.run|DEBUG|Adding new factory <function PipelineRun._from_dto at 0x7f9942e4e730> for run source azureml.PipelineRun
+2020-11-08 02:00:24,963|azureml.core.run|DEBUG|Adding new factory <function StepRun._from_reused_dto at 0x7f9942e4f1e0> for run source azureml.ReusedStepRun
+2020-11-08 02:00:24,972|azureml.core.run|DEBUG|Adding new factory <function StepRun._from_dto at 0x7f9942e4f158> for run source azureml.StepRun
+2020-11-08 02:00:24,981|azureml.core.run|DEBUG|Adding new factory <function ScriptRun._from_run_dto at 0x7f9948283bf8> for run source azureml.scriptrun
+2020-11-08 02:00:25,016|azureml.core.authentication.TokenRefresherDaemon|DEBUG|Starting daemon and triggering first instance
+2020-11-08 02:00:25,025|azureml._restclient.clientbase|INFO|Created a worker pool for first use
+2020-11-08 02:00:25,025|azureml.core.authentication|DEBUG|Time to expire 1814216.97478 seconds
+2020-11-08 02:00:25,025|azureml._restclient.service_context|DEBUG|Created a static thread pool for ServiceContext class
+2020-11-08 02:00:25,025|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:25,025|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:25,025|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:25,025|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:25,026|azureml._restclient.clientbase|DEBUG|ClientBase: Calling get with url None
+2020-11-08 02:00:25,086|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:25,086|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:25,086|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:25,136|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.RunClient.get-async:False|DEBUG|[START]
+2020-11-08 02:00:25,136|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.RunClient|DEBUG|ClientBase: Calling get with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}
+2020-11-08 02:00:25,200|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.RunClient.get-async:False|DEBUG|[STOP]
+2020-11-08 02:00:25,201|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup|DEBUG|Constructing run from dto. type: azureml.scriptrun, source: None, props: {'_aml_system_scenario_identification': 'Remote.SetUp', 'runTemplate': 'automl_child', 'iteration': 'setup', 'parentRunId': 'AutoML_7358d59d-cf66-47f0-9e7b-af038df05956', '_azureml.ComputeTargetType': 'amlcompute', 'ContentSnapshotId': 'cc63148b-9fb8-45df-9f9d-0f323c89d72e', 'ProcessInfoFile': 'azureml-logs/process_info.json', 'ProcessStatusFile': 'azureml-logs/process_status.json'}
+2020-11-08 02:00:25,201|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunContextManager|DEBUG|Valid logs dir, setting up content loader
+2020-11-08 02:00:25,201|azureml|WARNING|Could not import azureml.mlflow or azureml.contrib.mlflow mlflow APIs will not run against AzureML services.  Add azureml-mlflow as a conda dependency for the run if this behavior is desired
+2020-11-08 02:00:25,202|azureml.WorkerPool|DEBUG|[START]
+2020-11-08 02:00:25,202|azureml.SendRunKillSignal|DEBUG|[START]
+2020-11-08 02:00:25,202|azureml.RunStatusContext|DEBUG|[START]
+2020-11-08 02:00:25,202|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunContextManager.RunStatusContext|DEBUG|[START]
+2020-11-08 02:00:25,202|azureml.MetricsClient|DEBUG|[START]
+2020-11-08 02:00:25,202|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|[START]
+2020-11-08 02:00:25,202|azureml.WorkingDirectoryCM|DEBUG|[START]
+2020-11-08 02:00:25,202|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|[START]
+2020-11-08 02:00:25,202|azureml.history._tracking.PythonWorkingDirectory|INFO|Current working dir: /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-125132/azureml/automl_7358d59d-cf66-47f0-9e7b-af038df05956_setup/mounts/workspaceblobstore/azureml/AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup
+2020-11-08 02:00:25,202|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Calling pyfs
+2020-11-08 02:00:25,202|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Storing working dir for pyfs as /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-125132/azureml/automl_7358d59d-cf66-47f0-9e7b-af038df05956_setup/mounts/workspaceblobstore/azureml/AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup
+2020-11-08 02:00:26,540|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:26,540|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:26,540|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:26,540|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:26,540|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:26,540|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:26,541|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:26,541|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:26,575|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.RunClient.get-async:False|DEBUG|[START]
+2020-11-08 02:00:26,576|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.RunClient|DEBUG|ClientBase: Calling get with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}
+2020-11-08 02:00:26,639|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.RunClient.get-async:False|DEBUG|[STOP]
+2020-11-08 02:00:26,639|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup|DEBUG|Constructing run from dto. type: azureml.scriptrun, source: None, props: {'_aml_system_scenario_identification': 'Remote.SetUp', 'runTemplate': 'automl_child', 'iteration': 'setup', 'parentRunId': 'AutoML_7358d59d-cf66-47f0-9e7b-af038df05956', '_azureml.ComputeTargetType': 'amlcompute', 'ContentSnapshotId': 'cc63148b-9fb8-45df-9f9d-0f323c89d72e', 'ProcessInfoFile': 'azureml-logs/process_info.json', 'ProcessStatusFile': 'azureml-logs/process_status.json'}
+2020-11-08 02:00:26,640|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunContextManager|DEBUG|Valid logs dir, setting up content loader
+2020-11-08 02:00:26,646|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.RunClient.get-async:False|DEBUG|[START]
+2020-11-08 02:00:26,647|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.RunClient|DEBUG|ClientBase: Calling get with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}
+2020-11-08 02:00:27,076|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.RunClient.get-async:False|DEBUG|[STOP]
+2020-11-08 02:00:27,077|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup|DEBUG|Constructing run from dto. type: azureml.scriptrun, source: None, props: {'_aml_system_scenario_identification': 'Remote.SetUp', 'runTemplate': 'automl_child', 'iteration': 'setup', 'parentRunId': 'AutoML_7358d59d-cf66-47f0-9e7b-af038df05956', '_azureml.ComputeTargetType': 'amlcompute', 'ContentSnapshotId': 'cc63148b-9fb8-45df-9f9d-0f323c89d72e', 'ProcessInfoFile': 'azureml-logs/process_info.json', 'ProcessStatusFile': 'azureml-logs/process_status.json'}
+2020-11-08 02:00:27,077|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunContextManager|DEBUG|Valid logs dir, setting up content loader
+2020-11-08 02:00:27,091|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:27,091|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:27,091|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:27,091|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:27,091|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:27,092|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:27,092|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:27,092|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:27,100|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.RunClient.get-async:False|DEBUG|[START]
+2020-11-08 02:00:27,100|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.RunClient|DEBUG|ClientBase: Calling get with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}
+2020-11-08 02:00:27,162|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.RunClient.get-async:False|DEBUG|[STOP]
+2020-11-08 02:00:27,163|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956|DEBUG|Constructing run from dto. type: automl, source: automl, props: {'num_iterations': '1000', 'training_type': 'TrainFull', 'acquisition_function': 'EI', 'primary_metric': 'accuracy', 'train_split': '0', 'acquisition_parameter': '0', 'num_cross_validation': '5', 'target': 'c1', 'AMLSettingsJsonString': '{"enable_early_stopping":true,"enable_ensembling":true,"enable_stack_ensembling":true,"ensemble_iterations":15,"enable_onnx_compatible_models":false,"max_cores_per_iteration":-1,"send_telemetry":true,"blacklist_algos":["TensorFlowLinearClassifier","TensorFlowDNN"],"compute_target":"c1","enable_dnn":false,"experiment_exit_score":null,"experiment_timeout_minutes":60,"featurization":"auto","is_timeseries":false,"iteration_timeout_minutes":60,"max_concurrent_iterations":5,"metric_operation":"maximize","model_explainability":true,"n_cross_validations":null,"name":"bm","path":"./sample_projects/bm","primary_metric":"accuracy","region":"southcentralus","resource_group":"aml-quickstarts-125132","subscription_id":"19019985-4709-4996-8830-8568281fc2ff","task_type":"classification","validation_size":null,"vm_type":"STANDARD_DS12_V2","workspace_name":"quick-starts-ws-125132","label_column_name":"y","enable_pushmode_remote":true}', 'DataPrepJsonString': '{\\"datasets\\":0,\\"training_data\\":{\\"datasetId\\":\\"afbbaac0-01d8-45bd-94bf-edeb6174b541\\"}}', 'EnableSubsampling': 'False', 'runTemplate': 'AutoML', 'azureml.runsource': 'automl', '_aml_system_scenario_identification': 'Remote.Parent', 'ClientType': 'Browser', 'environment_cpu_name': 'AzureML-AutoML', 'environment_cpu_version': '43', 'environment_gpu_name': 'AzureML-AutoML-GPU', 'environment_gpu_version': '31', 'root_attribution': 'automl', 'attribution': 'AutoML', 'Orchestrator': 'AutoML', 'CancelUri': 'https://southcentralus.experiments.azureml.net/jasmine/v1.0/subscriptions/19019985-4709-4996-8830-8568281fc2ff/resourceGroups/aml-quickstarts-125132/providers/Microsoft.MachineLearningServices/workspaces/quick-starts-ws-125132/experiment/bm/cancel/AutoML_7358d59d-cf66-47f0-9e7b-af038df05956', 'ClientSdkVersion': '1.16.0', 'snapshotId': '00000000-0000-0000-0000-000000000000', 'SetupRunId': 'AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup', 'SetupRunContainerId': 'dcid.AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup'}
+2020-11-08 02:00:27,163|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunContextManager|DEBUG|Valid logs dir, setting up content loader
+2020-11-08 02:00:27,180|azureml.data.datastore_client|DEBUG|Getting datastore: workspaceblobstore
+2020-11-08 02:00:27,180|azureml.data.datastore_client|INFO|<azureml.core.authentication.AzureMLTokenAuthentication object at 0x7f9949d97438>
+2020-11-08 02:00:28,104|azureml.data.datastore_client|DEBUG|Received DTO from the datastore service
+2020-11-08 02:00:28,231|azureml._vendor.azure_storage.common._auth|DEBUG|String_to_sign=PUT
+
+
+
+
+
+
+
+
+
+
+
+x-ms-client-request-id:2c863cb0-2166-11eb-824d-7d6176e9c440
+x-ms-date:Sun, 08 Nov 2020 02:00:28 GMT
+x-ms-version:2018-03-28
+/mlstrg125132/automl-7358d59d-cf66-47f0-9e7b-af038df05956
+restype:share
+2020-11-08 02:00:28,452|azureml._vendor.azure_storage.common._auth|DEBUG|String_to_sign=GET
+
+
+
+
+
+
+
+
+
+
+
+x-ms-client-request-id:2ca81d12-2166-11eb-824d-7d6176e9c440
+x-ms-date:Sun, 08 Nov 2020 02:00:28 GMT
+x-ms-version:2018-03-28
+/mlstrg125132/automl-7358d59d-cf66-47f0-9e7b-af038df05956
+comp:list
+restype:directory
+2020-11-08 02:00:28,466|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:28,466|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,466|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,467|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,467|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,468|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,468|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,469|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,478|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:28,478|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,478|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,478|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,478|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,478|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,479|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,479|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,631|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:28,631|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,631|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,631|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,631|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,632|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,632|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,633|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,641|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:28,641|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,641|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,641|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,642|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,642|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,642|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,642|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,649|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:28,649|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,649|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,650|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,650|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,650|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,650|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,651|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,658|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:28,658|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,658|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,658|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,658|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,659|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,659|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,659|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,666|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.RunClient.patch-async:False|DEBUG|[START]
+2020-11-08 02:00:28,666|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.RunClient|DEBUG|ClientBase: Calling patch with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}
+2020-11-08 02:00:28,766|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.RunClient.patch-async:False|DEBUG|[STOP]
+2020-11-08 02:00:28,767|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:28,767|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,767|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,767|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,767|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,767|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,767|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:28,768|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:36,051|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:36,051|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:36,051|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:36,051|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:36,051|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:36,051|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:36,052|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:36,052|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:36,110|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:36,110|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:36,110|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:36,110|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:36,110|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:36,110|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:36,111|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:36,112|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:37,993|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:37,994|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:37,994|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:37,994|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:37,994|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:37,995|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:37,995|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:37,996|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:41,892|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:41,892|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:41,893|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:41,893|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:41,893|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:41,894|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:41,894|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:41,895|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:44,198|azureml.JasmineClient.get_feature_profiles-async:False|DEBUG|[START]
+2020-11-08 02:00:44,198|azureml.JasmineClient|DEBUG|ClientBase: Calling get_feature_profiles with url /jasmine/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiment/{experimentName}/featureprofiles/{runId}
+2020-11-08 02:00:44,335|azureml.JasmineClient.get_feature_profiles-async:False|DEBUG|[STOP]
+2020-11-08 02:00:46,186|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:46,186|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:46,186|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:46,186|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:46,186|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:46,187|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:46,187|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:46,187|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:46,482|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:46,482|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:46,482|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:46,483|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:46,483|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:46,483|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:46,483|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:46,484|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:47,956|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:47,956|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:47,957|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:47,957|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:47,957|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:47,957|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:47,957|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:47,958|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:48,300|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:48,301|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:48,301|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:48,301|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:48,301|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:48,301|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:48,301|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:48,302|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:50,760|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient|DEBUG|Overrides: Max batch size: 50, batch cushion: 5, Interval: 1.
+2020-11-08 02:00:50,761|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.PostMetricsBatchV2Daemon|DEBUG|Starting daemon and triggering first instance
+2020-11-08 02:00:50,761|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient|DEBUG|Used <class 'azureml._common.async_utils.batch_task_queue.BatchTaskQueue'> for use_batch=True.
+2020-11-08 02:00:50,774|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:50,774|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:50,774|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:50,775|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:50,775|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:50,776|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:50,777|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:50,778|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:50,808|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.ArtifactsClient|DEBUG|Called upload_artifact
+2020-11-08 02:00:50,808|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.ArtifactsClient|DEBUG|Uploading path artifact
+2020-11-08 02:00:50,809|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.ArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[START]
+2020-11-08 02:00:50,809|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.ArtifactsClient|DEBUG|ClientBase: Calling batch_create_empty_artifacts with url /artifact/v2.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/artifacts/batch/metadata/{origin}/{container}
+2020-11-08 02:00:51,112|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.ArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[STOP]
+2020-11-08 02:00:51,113|azureml._restclient.clientbase|DEBUG|ClientBase: Calling create_blob_from_stream with url None
+2020-11-08 02:00:51,227|azureml._file_utils.upload|DEBUG|Uploaded blob ExperimentRun/dcid.AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup/feature_config.pkl with size 11402.
+2020-11-08 02:00:51,228|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:51,228|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:51,228|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:51,229|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:51,229|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:51,229|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:51,229|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:51,230|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:51,257|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.ArtifactsClient|DEBUG|Called upload_artifact
+2020-11-08 02:00:51,257|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.ArtifactsClient|DEBUG|Uploading path artifact
+2020-11-08 02:00:51,258|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.ArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[START]
+2020-11-08 02:00:51,258|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.ArtifactsClient|DEBUG|ClientBase: Calling batch_create_empty_artifacts with url /artifact/v2.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/artifacts/batch/metadata/{origin}/{container}
+2020-11-08 02:00:51,554|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.ArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[STOP]
+2020-11-08 02:00:51,554|azureml._restclient.clientbase|DEBUG|ClientBase: Calling create_blob_from_stream with url None
+2020-11-08 02:00:51,585|azureml._file_utils.upload|DEBUG|Uploaded blob ExperimentRun/dcid.AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup/feature_names.pkl with size 4818.
+2020-11-08 02:00:51,586|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.RunClient.patch-async:False|DEBUG|[START]
+2020-11-08 02:00:51,586|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.RunClient|DEBUG|ClientBase: Calling patch with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}
+2020-11-08 02:00:51,683|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.RunClient.patch-async:False|DEBUG|[STOP]
+2020-11-08 02:00:51,684|azureml._restclient.service_context|DEBUG|Access an existing static threadpool for ServiceContext class
+2020-11-08 02:00:51,684|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:51,684|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:51,684|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:51,685|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:51,685|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:51,685|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:51,686|azureml._base_sdk_common.service_discovery|DEBUG|Found history service url in environment variable AZUREML_SERVICE_ENDPOINT, history service url: https://southcentralus.experiments.azureml.net.
+2020-11-08 02:00:51,712|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.ArtifactsClient|DEBUG|Called upload_artifact
+2020-11-08 02:00:51,712|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.ArtifactsClient|DEBUG|Uploading path artifact
+2020-11-08 02:00:51,712|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.ArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[START]
+2020-11-08 02:00:51,712|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.ArtifactsClient|DEBUG|ClientBase: Calling batch_create_empty_artifacts with url /artifact/v2.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/artifacts/batch/metadata/{origin}/{container}
+2020-11-08 02:00:51,762|azureml.BatchTaskQueueAdd_1_Batches|DEBUG|[Start]
+2020-11-08 02:00:51,762|azureml.BatchTaskQueueAdd_1_Batches.WorkerPool|DEBUG|submitting future: _handle_batch
+2020-11-08 02:00:51,763|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.PostMetricsBatchV2|DEBUG|Batch size 4.
+2020-11-08 02:00:51,763|azureml.BatchTaskQueueAdd_1_Batches.0__handle_batch|DEBUG|Using basic handler - no exception handling
+2020-11-08 02:00:51,763|azureml._restclient.service_context.WorkerPool|DEBUG|submitting future: _log_batch_v2
+2020-11-08 02:00:51,763|azureml.BatchTaskQueueAdd_1_Batches|DEBUG|Adding task 0__handle_batch to queue of approximate size: 0
+2020-11-08 02:00:51,763|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient|DEBUG|Metrics Client: _log_batch_v2 is calling post_run_metrics posting 4 values.
+2020-11-08 02:00:51,763|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.0__log_batch_v2|DEBUG|Using basic handler - no exception handling
+2020-11-08 02:00:51,764|azureml.BatchTaskQueueAdd_1_Batches|DEBUG|[Stop] - waiting default timeout
+2020-11-08 02:00:51,764|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.post_run_metrics-async:False|DEBUG|[START]
+2020-11-08 02:00:51,764|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.PostMetricsBatchV2|DEBUG|Adding task 0__log_batch_v2 to queue of approximate size: 0
+2020-11-08 02:00:51,764|azureml.BatchTaskQueueAdd_1_Batches.WaitFlushSource:BatchTaskQueueAdd_1_Batches|DEBUG|[START]
+2020-11-08 02:00:51,764|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient|DEBUG|ClientBase: Calling post_run_metrics with url /metric/v2.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/runs/{runId}/batch
+2020-11-08 02:00:51,765|azureml.BatchTaskQueueAdd_1_Batches.WaitFlushSource:BatchTaskQueueAdd_1_Batches|DEBUG|Overriding default flush timeout from None to 120
+2020-11-08 02:00:51,769|azureml.BatchTaskQueueAdd_1_Batches.WaitFlushSource:BatchTaskQueueAdd_1_Batches|DEBUG|Waiting 120 seconds on tasks: [AsyncTask(0__handle_batch)].
+2020-11-08 02:00:51,770|azureml.BatchTaskQueueAdd_1_Batches.0__handle_batch.WaitingTask|DEBUG|[START]
+2020-11-08 02:00:51,770|azureml.BatchTaskQueueAdd_1_Batches.0__handle_batch.WaitingTask|DEBUG|Awaiter is BatchTaskQueueAdd_1_Batches
+2020-11-08 02:00:51,770|azureml.BatchTaskQueueAdd_1_Batches.0__handle_batch.WaitingTask|DEBUG|[STOP]
+2020-11-08 02:00:51,770|azureml.BatchTaskQueueAdd_1_Batches|DEBUG|
+2020-11-08 02:00:51,770|azureml.BatchTaskQueueAdd_1_Batches.WaitFlushSource:BatchTaskQueueAdd_1_Batches|DEBUG|[STOP]
+2020-11-08 02:00:51,903|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.post_run_metrics-async:False|DEBUG|[STOP]
+2020-11-08 02:00:51,952|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.ArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[STOP]
+2020-11-08 02:00:51,953|azureml._restclient.clientbase|DEBUG|ClientBase: Calling create_blob_from_stream with url None
+2020-11-08 02:00:52,000|azureml._file_utils.upload|DEBUG|Uploaded blob ExperimentRun/dcid.AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup/featurizer_container.json with size 2380.
+2020-11-08 02:00:52,005|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.ArtifactsClient|DEBUG|Called upload_artifact
+2020-11-08 02:00:52,005|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.ArtifactsClient|DEBUG|Uploading path artifact
+2020-11-08 02:00:52,005|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.ArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[START]
+2020-11-08 02:00:52,006|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.ArtifactsClient|DEBUG|ClientBase: Calling batch_create_empty_artifacts with url /artifact/v2.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/artifacts/batch/metadata/{origin}/{container}
+2020-11-08 02:00:52,190|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.ArtifactsClient.batch_create_empty_artifacts-async:False|DEBUG|[STOP]
+2020-11-08 02:00:52,190|azureml._restclient.clientbase|DEBUG|ClientBase: Calling create_blob_from_stream with url None
+2020-11-08 02:00:52,221|azureml._file_utils.upload|DEBUG|Uploaded blob ExperimentRun/dcid.AutoML_7358d59d-cf66-47f0-9e7b-af038df05956/outputs/verifier_results.json with size 2362.
+2020-11-08 02:00:52,323|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Calling pyfs
+2020-11-08 02:00:52,324|azureml.history._tracking.PythonWorkingDirectory|INFO|Current working dir: /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-125132/azureml/automl_7358d59d-cf66-47f0-9e7b-af038df05956_setup/mounts/workspaceblobstore/azureml/AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup
+2020-11-08 02:00:52,324|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|Reverting working dir from /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-125132/azureml/automl_7358d59d-cf66-47f0-9e7b-af038df05956_setup/mounts/workspaceblobstore/azureml/AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup to /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-125132/azureml/automl_7358d59d-cf66-47f0-9e7b-af038df05956_setup/mounts/workspaceblobstore/azureml/AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup
+2020-11-08 02:00:52,324|azureml.history._tracking.PythonWorkingDirectory|INFO|Working dir is already updated /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-125132/azureml/automl_7358d59d-cf66-47f0-9e7b-af038df05956_setup/mounts/workspaceblobstore/azureml/AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup
+2020-11-08 02:00:52,324|azureml.history._tracking.PythonWorkingDirectory.workingdir|DEBUG|[STOP]
+2020-11-08 02:00:52,324|azureml.WorkingDirectoryCM|DEBUG|[STOP]
+2020-11-08 02:00:52,324|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[START]
+2020-11-08 02:00:52,324|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|Overrides: Max batch size: 50, batch cushion: 5, Interval: 1.
+2020-11-08 02:00:52,325|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.PostMetricsBatchDaemon|DEBUG|Starting daemon and triggering first instance
+2020-11-08 02:00:52,325|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|Used <class 'azureml._common.async_utils.batch_task_queue.BatchTaskQueue'> for use_batch=True.
+2020-11-08 02:00:52,325|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[START]
+2020-11-08 02:00:52,325|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|flush timeout 120 is different from task queue timeout 120, using flush timeout
+2020-11-08 02:00:52,325|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|Waiting 120 seconds on tasks: [].
+2020-11-08 02:00:52,326|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch|DEBUG|
+2020-11-08 02:00:52,326|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,326|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|Overrides: Max batch size: 50, batch cushion: 5, Interval: 1.
+2020-11-08 02:00:52,326|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.PostMetricsBatchV2Daemon|DEBUG|Starting daemon and triggering first instance
+2020-11-08 02:00:52,326|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|Used <class 'azureml._common.async_utils.batch_task_queue.BatchTaskQueue'> for use_batch=True.
+2020-11-08 02:00:52,327|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[START]
+2020-11-08 02:00:52,327|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|flush timeout 120 is different from task queue timeout 120, using flush timeout
+2020-11-08 02:00:52,327|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|Waiting 120 seconds on tasks: [].
+2020-11-08 02:00:52,327|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2|DEBUG|
+2020-11-08 02:00:52,327|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,327|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,327|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[START]
+2020-11-08 02:00:52,328|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|ClientBase: Calling wait_on_ingest with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/metricsingest/wait
+2020-11-08 02:00:52,401|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[STOP]
+2020-11-08 02:00:52,402|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,402|azureml.MetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,402|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[START]
+2020-11-08 02:00:52,402|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[START]
+2020-11-08 02:00:52,402|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|flush timeout 300 is different from task queue timeout 120, using flush timeout
+2020-11-08 02:00:52,402|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|Waiting 300 seconds on tasks: [].
+2020-11-08 02:00:52,402|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch|DEBUG|
+2020-11-08 02:00:52,403|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,403|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[START]
+2020-11-08 02:00:52,403|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|flush timeout 300 is different from task queue timeout 120, using flush timeout
+2020-11-08 02:00:52,403|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|Waiting 300 seconds on tasks: [].
+2020-11-08 02:00:52,403|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2|DEBUG|
+2020-11-08 02:00:52,403|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,403|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,403|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[START]
+2020-11-08 02:00:52,403|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|ClientBase: Calling wait_on_ingest with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/metricsingest/wait
+2020-11-08 02:00:52,467|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[STOP]
+2020-11-08 02:00:52,467|azureml.RunStatusContext|DEBUG|[STOP]
+2020-11-08 02:00:52,468|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[START]
+2020-11-08 02:00:52,468|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[START]
+2020-11-08 02:00:52,468|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|flush timeout 900.0 is different from task queue timeout 120, using flush timeout
+2020-11-08 02:00:52,468|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|Waiting 900.0 seconds on tasks: [].
+2020-11-08 02:00:52,468|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch|DEBUG|
+2020-11-08 02:00:52,469|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,469|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[START]
+2020-11-08 02:00:52,469|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|flush timeout 900.0 is different from task queue timeout 120, using flush timeout
+2020-11-08 02:00:52,469|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|Waiting 900.0 seconds on tasks: [].
+2020-11-08 02:00:52,469|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2|DEBUG|
+2020-11-08 02:00:52,469|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,469|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,470|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[START]
+2020-11-08 02:00:52,470|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|ClientBase: Calling wait_on_ingest with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/metricsingest/wait
+2020-11-08 02:00:52,530|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[STOP]
+2020-11-08 02:00:52,530|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[START]
+2020-11-08 02:00:52,530|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|Overrides: Max batch size: 50, batch cushion: 5, Interval: 1.
+2020-11-08 02:00:52,531|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.PostMetricsBatchDaemon|DEBUG|Starting daemon and triggering first instance
+2020-11-08 02:00:52,531|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|Used <class 'azureml._common.async_utils.batch_task_queue.BatchTaskQueue'> for use_batch=True.
+2020-11-08 02:00:52,531|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[START]
+2020-11-08 02:00:52,532|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|flush timeout 900.0 is different from task queue timeout 120, using flush timeout
+2020-11-08 02:00:52,532|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|Waiting 900.0 seconds on tasks: [].
+2020-11-08 02:00:52,532|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch|DEBUG|
+2020-11-08 02:00:52,532|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,533|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|Overrides: Max batch size: 50, batch cushion: 5, Interval: 1.
+2020-11-08 02:00:52,533|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.PostMetricsBatchV2Daemon|DEBUG|Starting daemon and triggering first instance
+2020-11-08 02:00:52,533|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|Used <class 'azureml._common.async_utils.batch_task_queue.BatchTaskQueue'> for use_batch=True.
+2020-11-08 02:00:52,533|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[START]
+2020-11-08 02:00:52,533|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|flush timeout 900.0 is different from task queue timeout 120, using flush timeout
+2020-11-08 02:00:52,534|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|Waiting 900.0 seconds on tasks: [].
+2020-11-08 02:00:52,534|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2|DEBUG|
+2020-11-08 02:00:52,534|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,534|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,534|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[START]
+2020-11-08 02:00:52,534|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|ClientBase: Calling wait_on_ingest with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/metricsingest/wait
+2020-11-08 02:00:52,589|azureml._SubmittedRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[STOP]
+2020-11-08 02:00:52,589|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[START]
+2020-11-08 02:00:52,589|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|Overrides: Max batch size: 50, batch cushion: 5, Interval: 1.
+2020-11-08 02:00:52,590|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.PostMetricsBatchDaemon|DEBUG|Starting daemon and triggering first instance
+2020-11-08 02:00:52,590|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|Used <class 'azureml._common.async_utils.batch_task_queue.BatchTaskQueue'> for use_batch=True.
+2020-11-08 02:00:52,590|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[START]
+2020-11-08 02:00:52,590|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|flush timeout 900.0 is different from task queue timeout 120, using flush timeout
+2020-11-08 02:00:52,591|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|Waiting 900.0 seconds on tasks: [].
+2020-11-08 02:00:52,591|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch|DEBUG|
+2020-11-08 02:00:52,591|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,591|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|Overrides: Max batch size: 50, batch cushion: 5, Interval: 1.
+2020-11-08 02:00:52,591|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.PostMetricsBatchV2Daemon|DEBUG|Starting daemon and triggering first instance
+2020-11-08 02:00:52,592|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|Used <class 'azureml._common.async_utils.batch_task_queue.BatchTaskQueue'> for use_batch=True.
+2020-11-08 02:00:52,592|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[START]
+2020-11-08 02:00:52,592|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|flush timeout 900.0 is different from task queue timeout 120, using flush timeout
+2020-11-08 02:00:52,592|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|Waiting 900.0 seconds on tasks: [].
+2020-11-08 02:00:52,592|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2|DEBUG|
+2020-11-08 02:00:52,593|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,593|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,593|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[START]
+2020-11-08 02:00:52,593|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient|DEBUG|ClientBase: Calling wait_on_ingest with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/metricsingest/wait
+2020-11-08 02:00:52,650|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[STOP]
+2020-11-08 02:00:52,650|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[START]
+2020-11-08 02:00:52,650|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient|DEBUG|Overrides: Max batch size: 50, batch cushion: 5, Interval: 1.
+2020-11-08 02:00:52,651|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.PostMetricsBatch.PostMetricsBatchDaemon|DEBUG|Starting daemon and triggering first instance
+2020-11-08 02:00:52,652|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient|DEBUG|Used <class 'azureml._common.async_utils.batch_task_queue.BatchTaskQueue'> for use_batch=True.
+2020-11-08 02:00:52,652|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[START]
+2020-11-08 02:00:52,652|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|flush timeout 900.0 is different from task queue timeout 120, using flush timeout
+2020-11-08 02:00:52,652|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|Waiting 900.0 seconds on tasks: [].
+2020-11-08 02:00:52,652|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.PostMetricsBatch|DEBUG|
+2020-11-08 02:00:52,652|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.PostMetricsBatch.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,652|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[START]
+2020-11-08 02:00:52,652|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|flush timeout 900.0 is different from task queue timeout 120, using flush timeout
+2020-11-08 02:00:52,653|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|Waiting 900.0 seconds on tasks: [AsyncTask(0__log_batch_v2)].
+2020-11-08 02:00:52,653|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.0__log_batch_v2.WaitingTask|DEBUG|[START]
+2020-11-08 02:00:52,653|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.0__log_batch_v2.WaitingTask|DEBUG|Awaiter is PostMetricsBatchV2
+2020-11-08 02:00:52,653|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.0__log_batch_v2.WaitingTask|DEBUG|[STOP]
+2020-11-08 02:00:52,653|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.PostMetricsBatchV2|DEBUG|
+2020-11-08 02:00:52,653|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.PostMetricsBatchV2.WaitFlushSource:MetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,653|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.FlushingMetricsClient|DEBUG|[STOP]
+2020-11-08 02:00:52,653|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[START]
+2020-11-08 02:00:52,654|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient|DEBUG|ClientBase: Calling wait_on_ingest with url /history/v1.0/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/experiments/{experimentName}/runs/{runId}/metricsingest/wait
+2020-11-08 02:00:52,719|azureml.AutoMLRun#AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.RunHistoryFacade.MetricsClient.wait_on_ingest-async:False|DEBUG|[STOP]
+2020-11-08 02:00:52,720|azureml.SendRunKillSignal|DEBUG|[STOP]
+2020-11-08 02:00:52,720|azureml.HistoryTrackingWorkerPool.WorkerPoolShutdown|DEBUG|[START]
+2020-11-08 02:00:52,720|azureml.HistoryTrackingWorkerPool.WorkerPoolShutdown|DEBUG|[STOP]
+2020-11-08 02:00:52,720|azureml.WorkerPool|DEBUG|[STOP]
+2020-11-08 02:00:55,943|azureml.core.authentication|DEBUG|Time to expire 1814186.05665 seconds

@@ -1,0 +1,140 @@
+2020/11/08 02:00:17 logger.go:297: Attempt 1 of http call to http://10.0.0.4:16384/sendlogstoartifacts/info
+2020/11/08 02:00:17 logger.go:297: Attempt 1 of http call to http://10.0.0.4:16384/sendlogstoartifacts/status
+[2020-11-08T02:00:19.299507] Entering context manager injector.
+[context_manager_injector.py] Command line Options: Namespace(inject=['ProjectPythonPath:context_managers.ProjectPythonPath', 'RunHistory:context_managers.RunHistory', 'TrackUserError:context_managers.TrackUserError'], invocation=['setup_AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.py', 'automl_driver.py'])
+Starting the daemon thread to refresh tokens in background for process with pid = 120
+Entering Run History Context Manager.
+Current directory:  /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-125132/azureml/automl_7358d59d-cf66-47f0-9e7b-af038df05956_setup/mounts/workspaceblobstore/azureml/AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup
+Preparing to call script [ setup_AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.py ] with arguments: ['automl_driver.py']
+After variable expansion, calling script [ setup_AutoML_7358d59d-cf66-47f0-9e7b-af038df05956.py ] with arguments: ['automl_driver.py']
+
+Script type = None
+Starting the setup....
+2020-11-08 02:00:27.164 - INFO - Changing AutoML temporary path to current working directory.
+WARNING - Received unrecognized parameter enable_pushmode_remote
+2020-11-08 02:00:28.105 - INFO - Successfully got the cache data store, caching enabled.
+2020-11-08 02:00:28.105 - INFO - Took 0.9250423908233643 seconds to retrieve cache data store
+2020-11-08 02:00:28.452 - INFO - ActivityStarted: load
+2020-11-08 02:00:28.464 - INFO - ActivityCompleted: Activity=load, HowEnded=Success, Duration=12.21[ms]
+2020-11-08 02:00:28.464 - INFO - Preparing input data for setup iteration for run AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.
+2020-11-08 02:00:28.465 - INFO - Resolving dataflows using dprep json.
+2020-11-08 02:00:28.465 - INFO - DataPrep version: 2.3.2
+2020-11-08 02:00:28.465 - INFO - DataPrep log client session id: 093c505a-78bd-452f-bf77-25b42db7b271
+2020-11-08 02:00:28.465 - INFO - ActivityStarted: ParsingDataprepJSON
+2020-11-08 02:00:28.465 - INFO - Creating dataflow from datasets for training_data and validation_data.
+2020-11-08 02:00:35.661 - INFO - ActivityCompleted: Activity=ParsingDataprepJSON, HowEnded=Success, Duration=7196.09[ms]
+2020-11-08 02:00:35.662 - INFO - ActivityStarted: BuildingDataCharacteristics
+2020-11-08 02:00:35.662 - INFO - Starting data characteristics calculation. This might take a while...
+2020-11-08 02:00:44.181 - INFO - ActivityCompleted: Activity=BuildingDataCharacteristics, HowEnded=Success, Duration=8519.38[ms]
+2020-11-08 02:00:44.182 - INFO - Successfully retrieved data using dataprep.
+2020-11-08 02:00:44.336 - INFO - Service responded with streaming disabled
+2020-11-08 02:00:44.336 - INFO - Inferring type for feature columns.
+2020-11-08 02:00:48.545 - INFO - Rule based validation: Using rule based train/test splits.
+2020-11-08 02:00:48.611 - INFO - Rule based validation: Using stratified sampling.
+2020-11-08 02:00:48.613 - INFO - Validating training data.
+2020-11-08 02:00:48.613 - INFO - Start data validation.
+2020-11-08 02:00:48.613 - INFO - Checking X and y.
+2020-11-08 02:00:48.618 - INFO - 2 unique classes detected.
+2020-11-08 02:00:49.701 - INFO - Input data successfully validated.
+2020-11-08 02:00:49.701 - INFO - Set problem info. AutoML setup phase for run AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_setup.
+2020-11-08 02:00:49.703 - INFO - ActivityStarted: Getting transformed data context.
+2020-11-08 02:00:49.703 - INFO - Using AzureFileCacheStore for caching transformed data.
+2020-11-08 02:00:49.703 - INFO - Checking if feature sweeping is necessary.
+2020-11-08 02:00:49.704 - INFO - Pre-processing user data
+2020-11-08 02:00:49.704 - INFO - The size of the raw data is: 5536566
+2020-11-08 02:00:49.757 - INFO - [YCol]RawFeatureStats:{"num_unique_vals": "2", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"string\"", "lengths": "{}", "num_unique_lens": "2", "average_entry_length": "2.1120553026471085", "average_number_spaces": "0.0", "cardinality_ratio": "6.744225257123588e-05", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "110.0"}
+2020-11-08 02:00:49.758 - INFO - Inspecting target column for missing values.
+2020-11-08 02:00:49.758 - INFO - Inspecting target column for missing values.
+2020-11-08 02:00:49.761 - INFO - Start doing label encoding on y data.
+2020-11-08 02:00:49.767 - INFO - End doing label encoding on y data.
+2020-11-08 02:00:49.768 - INFO - Start checking class balancing on y data.
+2020-11-08 02:00:49.796 - INFO - Classes are imbalanced in training data.
+2020-11-08 02:00:49.796 - INFO - X datatype is <class 'numpy.ndarray'>, shape is (29655, 20), datasize is 4744912.
+2020-11-08 02:00:49.796 - INFO - y datatype is <class 'numpy.ndarray'>, shape is (29655,), datasize is 237336.
+2020-11-08 02:00:49.796 - INFO - X_valid datatype is <class 'numpy.ndarray'>, shape is (3295, 20), datasize is 527312.
+2020-11-08 02:00:49.796 - INFO - y_valid datatype is <class 'numpy.ndarray'>, shape is (3295,), datasize is 26456.
+2020-11-08 02:00:49.854 - INFO - Feature sweeping enabled: False
+2020-11-08 02:00:49.854 - INFO - Feature sweeping timeout: 86400
+2020-11-08 02:00:49.855 - INFO - Featurizer mapper not found so learn all the transforms
+2020-11-08 02:00:50.762 - INFO - Start getting transformers.
+2020-11-08 02:00:50.762 - INFO - [XColNum:0]RawFeatureStats:{"num_unique_vals": "77", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"integer\"", "lengths": "{}", "num_unique_lens": "0", "average_entry_length": "0", "average_number_spaces": "0", "cardinality_ratio": "0", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "0"}
+2020-11-08 02:00:50.763 - INFO - Preprocess transformer for col 0, datatype: int64, detected datatype Numeric
+2020-11-08 02:00:50.763 - INFO - [XColNum:10]RawFeatureStats:{"num_unique_vals": "1428", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"integer\"", "lengths": "{}", "num_unique_lens": "0", "average_entry_length": "0", "average_number_spaces": "0", "cardinality_ratio": "0", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "0"}
+2020-11-08 02:00:50.764 - INFO - Preprocess transformer for col 10, datatype: int64, detected datatype Numeric
+2020-11-08 02:00:50.764 - INFO - [XColNum:15]RawFeatureStats:{"num_unique_vals": "10", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"floating\"", "lengths": "{}", "num_unique_lens": "0", "average_entry_length": "0", "average_number_spaces": "0", "cardinality_ratio": "0", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "0"}
+2020-11-08 02:00:50.764 - INFO - Preprocess transformer for col 15, datatype: float64, detected datatype Numeric
+2020-11-08 02:00:50.764 - INFO - [XColNum:16]RawFeatureStats:{"num_unique_vals": "26", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"floating\"", "lengths": "{}", "num_unique_lens": "0", "average_entry_length": "0", "average_number_spaces": "0", "cardinality_ratio": "0", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "0"}
+2020-11-08 02:00:50.765 - INFO - Preprocess transformer for col 16, datatype: float64, detected datatype Numeric
+2020-11-08 02:00:50.765 - INFO - [XColNum:17]RawFeatureStats:{"num_unique_vals": "26", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"floating\"", "lengths": "{}", "num_unique_lens": "0", "average_entry_length": "0", "average_number_spaces": "0", "cardinality_ratio": "0", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "0"}
+2020-11-08 02:00:50.766 - INFO - Preprocess transformer for col 17, datatype: float64, detected datatype Numeric
+2020-11-08 02:00:50.766 - INFO - [XColNum:18]RawFeatureStats:{"num_unique_vals": "312", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"floating\"", "lengths": "{}", "num_unique_lens": "0", "average_entry_length": "0", "average_number_spaces": "0", "cardinality_ratio": "0", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "0"}
+2020-11-08 02:00:50.766 - INFO - Preprocess transformer for col 18, datatype: float64, detected datatype Numeric
+2020-11-08 02:00:50.767 - INFO - [XColNum:19]RawFeatureStats:{"num_unique_vals": "11", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"floating\"", "lengths": "{}", "num_unique_lens": "0", "average_entry_length": "0", "average_number_spaces": "0", "cardinality_ratio": "0", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "0"}
+2020-11-08 02:00:50.767 - INFO - Preprocess transformer for col 19, datatype: float64, detected datatype Numeric
+2020-11-08 02:00:50.767 - INFO - [XColNum:1]RawFeatureStats:{"num_unique_vals": "12", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"string\"", "lengths": "{}", "num_unique_lens": "8", "average_entry_length": "8.954038104872703", "average_number_spaces": "0.0", "cardinality_ratio": "0.00040465351542741526", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "104.0"}
+2020-11-08 02:00:50.768 - INFO - Preprocess transformer for col 1, datatype: object, detected datatype Categorical
+2020-11-08 02:00:50.768 - INFO - [XColNum:2]RawFeatureStats:{"num_unique_vals": "4", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"string\"", "lengths": "{}", "num_unique_lens": "3", "average_entry_length": "6.829539706626202", "average_number_spaces": "0.0", "cardinality_ratio": "0.00013488450514247176", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "105.0"}
+2020-11-08 02:00:50.768 - INFO - Preprocess transformer for col 2, datatype: object, detected datatype Categorical
+2020-11-08 02:00:50.768 - INFO - [XColNum:3]RawFeatureStats:{"num_unique_vals": "8", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"string\"", "lengths": "{}", "num_unique_lens": "6", "average_entry_length": "12.711009947732254", "average_number_spaces": "0.0", "cardinality_ratio": "0.0002697690102849435", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "105.0"}
+2020-11-08 02:00:50.768 - INFO - Preprocess transformer for col 3, datatype: object, detected datatype Categorical
+2020-11-08 02:00:50.769 - INFO - [XColNum:4]RawFeatureStats:{"num_unique_vals": "3", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"string\"", "lengths": "{}", "num_unique_lens": "3", "average_entry_length": "3.0424211768673075", "average_number_spaces": "0.0", "cardinality_ratio": "0.00010116337885685381", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "110.0"}
+2020-11-08 02:00:50.769 - INFO - Preprocess transformer for col 4, datatype: object, detected datatype Categorical
+2020-11-08 02:00:50.769 - INFO - [XColNum:5]RawFeatureStats:{"num_unique_vals": "3", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"string\"", "lengths": "{}", "num_unique_lens": "3", "average_entry_length": "2.642522340246164", "average_number_spaces": "0.0", "cardinality_ratio": "0.00010116337885685381", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "110.0"}
+2020-11-08 02:00:50.769 - INFO - Preprocess transformer for col 5, datatype: object, detected datatype Categorical
+2020-11-08 02:00:50.769 - INFO - [XColNum:6]RawFeatureStats:{"num_unique_vals": "3", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"string\"", "lengths": "{}", "num_unique_lens": "3", "average_entry_length": "2.2721632102512226", "average_number_spaces": "0.0", "cardinality_ratio": "0.00010116337885685381", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "110.0"}
+2020-11-08 02:00:50.769 - INFO - Preprocess transformer for col 6, datatype: object, detected datatype Categorical
+2020-11-08 02:00:50.770 - INFO - [XColNum:7]RawFeatureStats:{"num_unique_vals": "2", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"string\"", "lengths": "{}", "num_unique_lens": "2", "average_entry_length": "8.365739335693812", "average_number_spaces": "0.0", "cardinality_ratio": "6.744225257123588e-05", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "108.0"}
+2020-11-08 02:00:50.770 - INFO - Preprocess transformer for col 7, datatype: object, detected datatype Categorical
+2020-11-08 02:00:50.770 - INFO - [XColNum:8]RawFeatureStats:{"num_unique_vals": "10", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"string\"", "lengths": "{}", "num_unique_lens": "1", "average_entry_length": "3.0", "average_number_spaces": "0.0", "cardinality_ratio": "0.0003372112628561794", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "106.0"}
+2020-11-08 02:00:50.770 - INFO - Preprocess transformer for col 8, datatype: object, detected datatype Categorical
+2020-11-08 02:00:50.771 - INFO - [XColNum:9]RawFeatureStats:{"num_unique_vals": "5", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"string\"", "lengths": "{}", "num_unique_lens": "1", "average_entry_length": "3.0", "average_number_spaces": "0.0", "cardinality_ratio": "0.0001686056314280897", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "105.0"}
+2020-11-08 02:00:50.771 - INFO - Preprocess transformer for col 9, datatype: object, detected datatype Categorical
+2020-11-08 02:00:50.771 - INFO - [XColNum:11]RawFeatureStats:{"num_unique_vals": "39", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"integer\"", "lengths": "{}", "num_unique_lens": "0", "average_entry_length": "0", "average_number_spaces": "0", "cardinality_ratio": "0", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "0"}
+2020-11-08 02:00:50.771 - INFO - Preprocess transformer for col 11, datatype: int64, detected datatype Categorical
+2020-11-08 02:00:50.772 - INFO - [XColNum:12]RawFeatureStats:{"num_unique_vals": "26", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"integer\"", "lengths": "{}", "num_unique_lens": "0", "average_entry_length": "0", "average_number_spaces": "0", "cardinality_ratio": "0", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "0"}
+2020-11-08 02:00:50.772 - INFO - Preprocess transformer for col 12, datatype: int64, detected datatype Categorical
+2020-11-08 02:00:50.772 - INFO - [XColNum:13]RawFeatureStats:{"num_unique_vals": "8", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"integer\"", "lengths": "{}", "num_unique_lens": "0", "average_entry_length": "0", "average_number_spaces": "0", "cardinality_ratio": "0", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "0"}
+2020-11-08 02:00:50.772 - INFO - Preprocess transformer for col 13, datatype: int64, detected datatype Categorical
+2020-11-08 02:00:50.772 - INFO - [XColNum:14]RawFeatureStats:{"num_unique_vals": "3", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"string\"", "lengths": "{}", "num_unique_lens": "2", "average_entry_length": "10.444815376833587", "average_number_spaces": "0.0", "cardinality_ratio": "0.00010116337885685381", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "110.0"}
+2020-11-08 02:00:50.772 - INFO - Preprocess transformer for col 14, datatype: object, detected datatype Categorical
+2020-11-08 02:00:50.773 - INFO - ActivityStarted: FeatureSweeping
+2020-11-08 02:00:50.773 - INFO - Feature sweeping disabled.
+2020-11-08 02:00:50.773 - INFO - ActivityCompleted: Activity=FeatureSweeping, HowEnded=Success, Duration=0.13[ms]
+2020-11-08 02:00:50.773 - INFO - Transforms:
+col 0, transformers: SimpleImputer
+col 10, transformers: SimpleImputer
+col 15, transformers: SimpleImputer
+col 16, transformers: SimpleImputer
+col 17, transformers: SimpleImputer
+col 18, transformers: SimpleImputer
+col 19, transformers: SimpleImputer
+2020-11-08 02:00:50.773 - INFO - The stats_computation for raw data are following:-
+	Number of Numeric features: 7
+	Number of Text features: 0
+	Number of AllNan features: 0
+	Number of DateTime features: 0
+	Number of CategoricalHash features: 0
+	Number of Categorical features: 13
+	Number of Hashes features: 0
+	Number of Ignore features: 0
+2020-11-08 02:00:50.773 - INFO - End getting transformers.
+2020-11-08 02:00:50.774 - INFO - ActivityCompleted: Activity=Getting transformed data context., HowEnded=Success, Duration=1070.84[ms]
+2020-11-08 02:00:50.774 - INFO - Saving artifacts required for separate featurization run.
+2020-11-08 02:00:50.788 - INFO - ActivityStarted: FeatureConfigUpload
+2020-11-08 02:00:51.227 - INFO - ActivityCompleted: Activity=FeatureConfigUpload, HowEnded=Success, Duration=439.72[ms]
+2020-11-08 02:00:51.237 - INFO - ActivityStarted: EngineeredFeatureNamesUpload
+2020-11-08 02:00:51.585 - INFO - ActivityCompleted: Activity=EngineeredFeatureNamesUpload, HowEnded=Success, Duration=348.44[ms]
+2020-11-08 02:00:51.693 - INFO - ActivityStarted: FeaturizationJsonUpload
+2020-11-08 02:00:52.001 - INFO - ActivityCompleted: Activity=FeaturizationJsonUpload, HowEnded=Success, Duration=307.36[ms]
+Setup run completed successfully!
+Starting the daemon thread to refresh tokens in background for process with pid = 120
+
+
+[2020-11-08T02:00:52.322261] The experiment completed successfully. Finalizing run...
+[2020-11-08T02:00:52.322333] FinalizingInRunHistory is not called
+Cleaning up all outstanding Run operations, waiting 900.0 seconds
+4 items cleaning up...
+Cleanup took 0.25162291526794434 seconds
+[2020-11-08T02:00:52.914429] Finished context manager injector.
+2020/11/08 02:00:57 logger.go:297: Attempt 1 of http call to http://10.0.0.4:16384/sendlogstoartifacts/status
+2020/11/08 02:00:57 logger.go:297: Process Exiting with Code:  0
