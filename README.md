@@ -1,5 +1,4 @@
 # Operationalizing Machine Learning
-Alt-H1
 ======
 ## An overview of the project
 An Architectural Diagram
