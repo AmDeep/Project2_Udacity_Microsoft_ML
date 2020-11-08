@@ -1,0 +1,1834 @@
+2020-11-08 02:01:54.9041|DEBUG|EngineHost|f759ff53-a632-46cc-85a8-9ebfa1124b44|Startup|MessageParser initialized|
+2020-11-08 02:01:54.9258|DEBUG|EngineHost|f759ff53-a632-46cc-85a8-9ebfa1124b44|Startup|MessageLoop initialized|
+2020-11-08 02:01:55.3180|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: ActivityMigration|metrics: {}, properties: {"prevState":"No version","newState":"1","success":"True"}|
+2020-11-08 02:01:56.4282|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2020-11-08 02:01:56.4282|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ParseDelimitedBlock","id":"1"}|
+2020-11-08 02:01:56.4282|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.DropColumnsBlock","id":"2"}|
+2020-11-08 02:01:56.4282|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SetColumnTypesBlock","id":"3"}|
+2020-11-08 02:01:56.4282|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.TakeBlock","id":"4"}|
+2020-11-08 02:01:56.4282|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SetRsLexContextBlock","id":"5"}|
+2020-11-08 02:01:56.4366|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:01:56.4506|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:01:56.4506|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:01:56.4631|DEBUG|DynamicPythonPathCLexExecutor|f759ff53-a632-46cc-85a8-9ebfa1124b44|EnsureCLexExecutorReady|No more tasks in progress. Creating new CLexExecutor.|
+2020-11-08 02:01:56.4870|INFO|CLexExecutor|f759ff53-a632-46cc-85a8-9ebfa1124b44|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "4380f778-dace-4e10-9c4e-c147c0a4f6a0"
+}
+2020-11-08 02:01:56.5590|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution started|{
+  "ExecutionId": "736fb38e-e485-4cbc-aaf6-456b8703a472",
+  "Main": "AfI3q7OjKX9XWU5p/BJabGquLYUfZMqn7fk4bfynVhE="
+}
+2020-11-08 02:01:57.5951|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "736fb38e-e485-4cbc-aaf6-456b8703a472",
+  "Main": "AfI3q7OjKX9XWU5p/BJabGquLYUfZMqn7fk4bfynVhE="
+}
+2020-11-08 02:01:57.6012|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:01:58.1677|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:01:58.1718|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:01:58.1718|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:01:58.2165|INFO|CLexExecutor|f759ff53-a632-46cc-85a8-9ebfa1124b44|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "e4f644d6-0659-49d0-aa1f-a856d35dca0f"
+}
+2020-11-08 02:01:58.2267|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution started|{
+  "ExecutionId": "80d985d0-4fd9-42a0-ace7-89cfa4547988",
+  "Main": "36FkIB7f8Yrx51ccrpnYIrGmMQ0dTRYU+EFwr0uBiuY="
+}
+2020-11-08 02:01:58.2267|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCacheOperationVisitor|Visiting activity. Activity: 36FkIB7f8Yrx51ccrpnYIrGmMQ0dTRYU+EFwr0uBiuY=|
+2020-11-08 02:01:58.2414|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "0",
+  "ParentContextTag": ""
+}
+2020-11-08 02:01:59.5989|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "0",
+  "ParentContextTag": ""
+}
+2020-11-08 02:01:59.5989|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "8610df15-54a1-4339-a306-9e6873970968",
+  "ContextTag": "1",
+  "ParentContextTag": "0"
+}
+2020-11-08 02:01:59.6532|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "8610df15-54a1-4339-a306-9e6873970968",
+  "ContextTag": "1",
+  "ParentContextTag": "0"
+}
+2020-11-08 02:01:59.6532|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "1d428ad4-5506-4c0b-97a3-ee0452e90337",
+  "ContextTag": "2",
+  "ParentContextTag": "1"
+}
+2020-11-08 02:01:59.6532|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "1d428ad4-5506-4c0b-97a3-ee0452e90337",
+  "ContextTag": "2",
+  "ParentContextTag": "1"
+}
+2020-11-08 02:01:59.6532|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "eaa6bde6-ed8e-4ae5-adf9-6f2a2c38fcb3",
+  "ContextTag": "3",
+  "ParentContextTag": "2"
+}
+2020-11-08 02:01:59.6549|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "eaa6bde6-ed8e-4ae5-adf9-6f2a2c38fcb3",
+  "ContextTag": "3",
+  "ParentContextTag": "2"
+}
+2020-11-08 02:01:59.6549|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "0735d21a-bc04-4804-9df5-1afe1c594158",
+  "ContextTag": "4",
+  "ParentContextTag": "3"
+}
+2020-11-08 02:01:59.6549|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "0735d21a-bc04-4804-9df5-1afe1c594158",
+  "ContextTag": "4",
+  "ParentContextTag": "3"
+}
+2020-11-08 02:01:59.6549|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "0735d21a-bc04-4804-9df5-1afe1c594158",
+  "ContextTag": "5",
+  "ParentContextTag": "4"
+}
+2020-11-08 02:01:59.6772|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "0735d21a-bc04-4804-9df5-1afe1c594158",
+  "ContextTag": "5",
+  "ParentContextTag": "4"
+}
+2020-11-08 02:01:59.6772|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "e78e7af6-3261-4fec-bf38-7765cddc0364",
+  "ContextTag": "6",
+  "ParentContextTag": "5"
+}
+2020-11-08 02:01:59.6772|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "e78e7af6-3261-4fec-bf38-7765cddc0364",
+  "ContextTag": "6",
+  "ParentContextTag": "5"
+}
+2020-11-08 02:01:59.6772|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GetDataProfileOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "7",
+  "ParentContextTag": "6"
+}
+2020-11-08 02:01:59.8237|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GetDataProfileOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "7",
+  "ParentContextTag": "6"
+}
+2020-11-08 02:01:59.8370|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "80d985d0-4fd9-42a0-ace7-89cfa4547988",
+  "Main": "36FkIB7f8Yrx51ccrpnYIrGmMQ0dTRYU+EFwr0uBiuY="
+}
+2020-11-08 02:01:59.8643|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:01:59.8705|INFO|CLexExecutor|f759ff53-a632-46cc-85a8-9ebfa1124b44|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "cb1b785e-5142-43c8-b604-4902659ee8c9"
+}
+2020-11-08 02:01:59.8711|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution started|{
+  "ExecutionId": "fb0374c9-27d9-4c20-abf3-cb34973bffc3",
+  "Main": "36FkIB7f8Yrx51ccrpnYIrGmMQ0dTRYU+EFwr0uBiuY="
+}
+2020-11-08 02:01:59.8711|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCacheOperationVisitor|Visiting activity. Activity: 36FkIB7f8Yrx51ccrpnYIrGmMQ0dTRYU+EFwr0uBiuY=|
+2020-11-08 02:01:59.8809|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "0",
+  "ParentContextTag": ""
+}
+2020-11-08 02:01:59.8809|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "8",
+  "ParentContextTag": ""
+}
+2020-11-08 02:01:59.9743|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "8",
+  "ParentContextTag": ""
+}
+2020-11-08 02:01:59.9743|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "8610df15-54a1-4339-a306-9e6873970968",
+  "ContextTag": "9",
+  "ParentContextTag": "8"
+}
+2020-11-08 02:01:59.9747|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "8610df15-54a1-4339-a306-9e6873970968",
+  "ContextTag": "9",
+  "ParentContextTag": "8"
+}
+2020-11-08 02:01:59.9747|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "1d428ad4-5506-4c0b-97a3-ee0452e90337",
+  "ContextTag": "10",
+  "ParentContextTag": "9"
+}
+2020-11-08 02:01:59.9747|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "1d428ad4-5506-4c0b-97a3-ee0452e90337",
+  "ContextTag": "10",
+  "ParentContextTag": "9"
+}
+2020-11-08 02:01:59.9747|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "eaa6bde6-ed8e-4ae5-adf9-6f2a2c38fcb3",
+  "ContextTag": "11",
+  "ParentContextTag": "10"
+}
+2020-11-08 02:01:59.9747|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "eaa6bde6-ed8e-4ae5-adf9-6f2a2c38fcb3",
+  "ContextTag": "11",
+  "ParentContextTag": "10"
+}
+2020-11-08 02:01:59.9747|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "0735d21a-bc04-4804-9df5-1afe1c594158",
+  "ContextTag": "12",
+  "ParentContextTag": "11"
+}
+2020-11-08 02:01:59.9747|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "0735d21a-bc04-4804-9df5-1afe1c594158",
+  "ContextTag": "12",
+  "ParentContextTag": "11"
+}
+2020-11-08 02:01:59.9747|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "0735d21a-bc04-4804-9df5-1afe1c594158",
+  "ContextTag": "13",
+  "ParentContextTag": "12"
+}
+2020-11-08 02:01:59.9747|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "0735d21a-bc04-4804-9df5-1afe1c594158",
+  "ContextTag": "13",
+  "ParentContextTag": "12"
+}
+2020-11-08 02:01:59.9747|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "e78e7af6-3261-4fec-bf38-7765cddc0364",
+  "ContextTag": "14",
+  "ParentContextTag": "13"
+}
+2020-11-08 02:01:59.9747|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "e78e7af6-3261-4fec-bf38-7765cddc0364",
+  "ContextTag": "14",
+  "ParentContextTag": "13"
+}
+2020-11-08 02:01:59.9796|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "fb0374c9-27d9-4c20-abf3-cb34973bffc3",
+  "Main": "36FkIB7f8Yrx51ccrpnYIrGmMQ0dTRYU+EFwr0uBiuY="
+}
+2020-11-08 02:02:00.0164|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:00.0205|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:00.0205|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:00.0391|INFO|CLexExecutor|f759ff53-a632-46cc-85a8-9ebfa1124b44|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "10e35c7e-8007-4539-b903-9b643a02a3fc"
+}
+2020-11-08 02:02:00.0391|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution started|{
+  "ExecutionId": "ca179b7c-90b0-492c-943f-fb80c6e87ffa",
+  "Main": "pnZN+ESauyd+p1d2vXZfsQOgYZcBrSd+683Ka0qRY2o="
+}
+2020-11-08 02:02:00.0391|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCacheOperationVisitor|Visiting activity. Activity: pnZN+ESauyd+p1d2vXZfsQOgYZcBrSd+683Ka0qRY2o=|
+2020-11-08 02:02:00.0462|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "8",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:00.0462|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "15",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:00.1359|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "15",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:00.1359|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "16",
+  "ParentContextTag": "15"
+}
+2020-11-08 02:02:00.1509|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "16",
+  "ParentContextTag": "15"
+}
+2020-11-08 02:02:00.1509|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "SplitColumnOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "17",
+  "ParentContextTag": "16"
+}
+2020-11-08 02:02:00.1551|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "SplitColumnOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "17",
+  "ParentContextTag": "16"
+}
+2020-11-08 02:02:00.1551|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "PromoteHeadersOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "18",
+  "ParentContextTag": "17"
+}
+2020-11-08 02:02:00.1596|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "PromoteHeadersOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "18",
+  "ParentContextTag": "17"
+}
+2020-11-08 02:02:00.1596|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "RemoveColumnsOperation",
+  "Reference": "",
+  "Tag": "9d35e303-e6cc-4cb8-ad4d-4ac1b871c351",
+  "ContextTag": "19",
+  "ParentContextTag": "18"
+}
+2020-11-08 02:02:00.2489|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"SaIe5otR1leOtXni2q4Lab6MNRSTwbxye953cKdCjS0="}|
+2020-11-08 02:02:00.5218|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "RemoveColumnsOperation",
+  "Reference": "",
+  "Tag": "9d35e303-e6cc-4cb8-ad4d-4ac1b871c351",
+  "ContextTag": "19",
+  "ParentContextTag": "18"
+}
+2020-11-08 02:02:00.5218|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "TransformColumnsTypesOperation",
+  "Reference": "",
+  "Tag": "2af73de0-95c3-4966-bbcc-9658f1dc1e5c",
+  "ContextTag": "20",
+  "ParentContextTag": "19"
+}
+2020-11-08 02:02:00.5293|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "TransformColumnsTypesOperation",
+  "Reference": "",
+  "Tag": "2af73de0-95c3-4966-bbcc-9658f1dc1e5c",
+  "ContextTag": "20",
+  "ParentContextTag": "19"
+}
+2020-11-08 02:02:00.5293|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "c1eff58a-c2b8-46f9-9a54-a0b36fcd923a",
+  "ContextTag": "21",
+  "ParentContextTag": "20"
+}
+2020-11-08 02:02:00.5293|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "c1eff58a-c2b8-46f9-9a54-a0b36fcd923a",
+  "ContextTag": "21",
+  "ParentContextTag": "20"
+}
+2020-11-08 02:02:00.5293|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "919ec42c-2eb0-4af6-8052-c26eeeae73e2",
+  "ContextTag": "22",
+  "ParentContextTag": "21"
+}
+2020-11-08 02:02:00.5293|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "919ec42c-2eb0-4af6-8052-c26eeeae73e2",
+  "ContextTag": "22",
+  "ParentContextTag": "21"
+}
+2020-11-08 02:02:00.5293|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "SummarizeEachOperation",
+  "Reference": "",
+  "Tag": "919ec42c-2eb0-4af6-8052-c26eeeae73e2",
+  "ContextTag": "23",
+  "ParentContextTag": "22"
+}
+2020-11-08 02:02:00.5446|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "SummarizeEachOperation",
+  "Reference": "",
+  "Tag": "919ec42c-2eb0-4af6-8052-c26eeeae73e2",
+  "ContextTag": "23",
+  "ParentContextTag": "22"
+}
+2020-11-08 02:02:00.5446|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "919ec42c-2eb0-4af6-8052-c26eeeae73e2",
+  "ContextTag": "24",
+  "ParentContextTag": "23"
+}
+2020-11-08 02:02:00.5542|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "919ec42c-2eb0-4af6-8052-c26eeeae73e2",
+  "ContextTag": "24",
+  "ParentContextTag": "23"
+}
+2020-11-08 02:02:00.5542|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "919ec42c-2eb0-4af6-8052-c26eeeae73e2",
+  "ContextTag": "25",
+  "ParentContextTag": "24"
+}
+2020-11-08 02:02:00.5548|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "919ec42c-2eb0-4af6-8052-c26eeeae73e2",
+  "ContextTag": "25",
+  "ParentContextTag": "24"
+}
+2020-11-08 02:02:00.5548|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "919ec42c-2eb0-4af6-8052-c26eeeae73e2",
+  "ContextTag": "26",
+  "ParentContextTag": "25"
+}
+2020-11-08 02:02:00.5548|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "919ec42c-2eb0-4af6-8052-c26eeeae73e2",
+  "ContextTag": "26",
+  "ParentContextTag": "25"
+}
+2020-11-08 02:02:00.5548|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "RemoveColumnsOperation",
+  "Reference": "",
+  "Tag": "919ec42c-2eb0-4af6-8052-c26eeeae73e2",
+  "ContextTag": "27",
+  "ParentContextTag": "26"
+}
+2020-11-08 02:02:00.5548|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "RemoveColumnsOperation",
+  "Reference": "",
+  "Tag": "919ec42c-2eb0-4af6-8052-c26eeeae73e2",
+  "ContextTag": "27",
+  "ParentContextTag": "26"
+}
+2020-11-08 02:02:00.5548|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "SkipOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "28",
+  "ParentContextTag": "27"
+}
+2020-11-08 02:02:00.7843|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"SaIe5otR1leOtXni2q4Lab6MNRSTwbxye953cKdCjS0="}|
+2020-11-08 02:02:01.2257|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"SaIe5otR1leOtXni2q4Lab6MNRSTwbxye953cKdCjS0="}|
+2020-11-08 02:02:01.5718|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "SkipOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "28",
+  "ParentContextTag": "27"
+}
+2020-11-08 02:02:01.5718|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "29",
+  "ParentContextTag": "28"
+}
+2020-11-08 02:02:01.5718|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "29",
+  "ParentContextTag": "28"
+}
+2020-11-08 02:02:01.5718|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "ca179b7c-90b0-492c-943f-fb80c6e87ffa",
+  "Main": "pnZN+ESauyd+p1d2vXZfsQOgYZcBrSd+683Ka0qRY2o="
+}
+2020-11-08 02:02:01.5807|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:01.7102|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:01.7102|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:01.7102|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:01.7108|INFO|CLexExecutor|f759ff53-a632-46cc-85a8-9ebfa1124b44|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "fdfd50f6-b619-4acf-b82e-3359da396b86"
+}
+2020-11-08 02:02:01.7108|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution started|{
+  "ExecutionId": "fea50cb4-bf68-4499-8ea8-beb203c435d8",
+  "Main": "Gv9xT39ZUoTIllvQxPTvKAVI3Q71l6rT/2ddjaN0v/U="
+}
+2020-11-08 02:02:01.7108|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCacheOperationVisitor|Visiting activity. Activity: Gv9xT39ZUoTIllvQxPTvKAVI3Q71l6rT/2ddjaN0v/U=|
+2020-11-08 02:02:01.7108|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "15",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:01.7108|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "30",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "30",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "f871df04-cfbf-41ed-a934-75e04b6d29a5",
+  "ContextTag": "31",
+  "ParentContextTag": "30"
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "f871df04-cfbf-41ed-a934-75e04b6d29a5",
+  "ContextTag": "31",
+  "ParentContextTag": "30"
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "8f6b3660-c517-4111-9c9c-55623b3b51f6",
+  "ContextTag": "32",
+  "ParentContextTag": "31"
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "8f6b3660-c517-4111-9c9c-55623b3b51f6",
+  "ContextTag": "32",
+  "ParentContextTag": "31"
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "9a41dbe1-172d-4fce-a8b5-b6864a04abfc",
+  "ContextTag": "33",
+  "ParentContextTag": "32"
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "9a41dbe1-172d-4fce-a8b5-b6864a04abfc",
+  "ContextTag": "33",
+  "ParentContextTag": "32"
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "70b180e2-e63e-430f-820f-2cfed0c37a46",
+  "ContextTag": "34",
+  "ParentContextTag": "33"
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "70b180e2-e63e-430f-820f-2cfed0c37a46",
+  "ContextTag": "34",
+  "ParentContextTag": "33"
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "70b180e2-e63e-430f-820f-2cfed0c37a46",
+  "ContextTag": "35",
+  "ParentContextTag": "34"
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "70b180e2-e63e-430f-820f-2cfed0c37a46",
+  "ContextTag": "35",
+  "ParentContextTag": "34"
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "c216a6e3-758f-43c6-ae95-44088b22dc00",
+  "ContextTag": "36",
+  "ParentContextTag": "35"
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "c216a6e3-758f-43c6-ae95-44088b22dc00",
+  "ContextTag": "36",
+  "ParentContextTag": "35"
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GetDataProfileOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "37",
+  "ParentContextTag": "36"
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GetDataProfileOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "37",
+  "ParentContextTag": "36"
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "fea50cb4-bf68-4499-8ea8-beb203c435d8",
+  "Main": "Gv9xT39ZUoTIllvQxPTvKAVI3Q71l6rT/2ddjaN0v/U="
+}
+2020-11-08 02:02:01.8026|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:01.8026|INFO|CLexExecutor|f759ff53-a632-46cc-85a8-9ebfa1124b44|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "dc9723ab-2ad3-40c0-96a6-37a5691473a7"
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution started|{
+  "ExecutionId": "1f1832fe-4ec9-4824-bc8d-fd7b828d4875",
+  "Main": "Gv9xT39ZUoTIllvQxPTvKAVI3Q71l6rT/2ddjaN0v/U="
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCacheOperationVisitor|Visiting activity. Activity: Gv9xT39ZUoTIllvQxPTvKAVI3Q71l6rT/2ddjaN0v/U=|
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "30",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:01.8026|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "38",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:01.8957|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "38",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:01.8957|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "f871df04-cfbf-41ed-a934-75e04b6d29a5",
+  "ContextTag": "39",
+  "ParentContextTag": "38"
+}
+2020-11-08 02:02:01.8957|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "f871df04-cfbf-41ed-a934-75e04b6d29a5",
+  "ContextTag": "39",
+  "ParentContextTag": "38"
+}
+2020-11-08 02:02:01.8957|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "8f6b3660-c517-4111-9c9c-55623b3b51f6",
+  "ContextTag": "40",
+  "ParentContextTag": "39"
+}
+2020-11-08 02:02:01.8957|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "8f6b3660-c517-4111-9c9c-55623b3b51f6",
+  "ContextTag": "40",
+  "ParentContextTag": "39"
+}
+2020-11-08 02:02:01.8957|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "9a41dbe1-172d-4fce-a8b5-b6864a04abfc",
+  "ContextTag": "41",
+  "ParentContextTag": "40"
+}
+2020-11-08 02:02:01.8957|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "9a41dbe1-172d-4fce-a8b5-b6864a04abfc",
+  "ContextTag": "41",
+  "ParentContextTag": "40"
+}
+2020-11-08 02:02:01.8957|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "70b180e2-e63e-430f-820f-2cfed0c37a46",
+  "ContextTag": "42",
+  "ParentContextTag": "41"
+}
+2020-11-08 02:02:01.8957|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "70b180e2-e63e-430f-820f-2cfed0c37a46",
+  "ContextTag": "42",
+  "ParentContextTag": "41"
+}
+2020-11-08 02:02:01.8957|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "70b180e2-e63e-430f-820f-2cfed0c37a46",
+  "ContextTag": "43",
+  "ParentContextTag": "42"
+}
+2020-11-08 02:02:01.8957|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "70b180e2-e63e-430f-820f-2cfed0c37a46",
+  "ContextTag": "43",
+  "ParentContextTag": "42"
+}
+2020-11-08 02:02:01.8957|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "c216a6e3-758f-43c6-ae95-44088b22dc00",
+  "ContextTag": "44",
+  "ParentContextTag": "43"
+}
+2020-11-08 02:02:01.8957|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "c216a6e3-758f-43c6-ae95-44088b22dc00",
+  "ContextTag": "44",
+  "ParentContextTag": "43"
+}
+2020-11-08 02:02:01.8957|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "1f1832fe-4ec9-4824-bc8d-fd7b828d4875",
+  "Main": "Gv9xT39ZUoTIllvQxPTvKAVI3Q71l6rT/2ddjaN0v/U="
+}
+2020-11-08 02:02:01.8957|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:01.8957|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:01.8957|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:01.8995|INFO|CLexExecutor|f759ff53-a632-46cc-85a8-9ebfa1124b44|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "363ac1c0-feba-48b6-bfdf-52a376aa2049"
+}
+2020-11-08 02:02:01.8995|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution started|{
+  "ExecutionId": "9103fb57-612d-47e0-84cd-c88b74b536bc",
+  "Main": "ll4GQsjL0igSL1Zn9Fp/ktNHmv6sz5TKTlLs1aRy11M="
+}
+2020-11-08 02:02:01.9145|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCacheOperationVisitor|Visiting activity. Activity: ll4GQsjL0igSL1Zn9Fp/ktNHmv6sz5TKTlLs1aRy11M=|
+2020-11-08 02:02:01.9145|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "38",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:01.9145|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "45",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:02.0056|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "45",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:02.0056|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "46",
+  "ParentContextTag": "45"
+}
+2020-11-08 02:02:02.0056|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "46",
+  "ParentContextTag": "45"
+}
+2020-11-08 02:02:02.0056|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "SplitColumnOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "47",
+  "ParentContextTag": "46"
+}
+2020-11-08 02:02:02.0056|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "SplitColumnOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "47",
+  "ParentContextTag": "46"
+}
+2020-11-08 02:02:02.0056|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "PromoteHeadersOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "48",
+  "ParentContextTag": "47"
+}
+2020-11-08 02:02:02.0056|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "PromoteHeadersOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "48",
+  "ParentContextTag": "47"
+}
+2020-11-08 02:02:02.0056|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "KeepColumnsOperation",
+  "Reference": "",
+  "Tag": "aa6e3551-8ff6-4d08-b3bb-36c3b4834c8f",
+  "ContextTag": "49",
+  "ParentContextTag": "48"
+}
+2020-11-08 02:02:02.1816|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"SaIe5otR1leOtXni2q4Lab6MNRSTwbxye953cKdCjS0="}|
+2020-11-08 02:02:02.4838|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "KeepColumnsOperation",
+  "Reference": "",
+  "Tag": "aa6e3551-8ff6-4d08-b3bb-36c3b4834c8f",
+  "ContextTag": "49",
+  "ParentContextTag": "48"
+}
+2020-11-08 02:02:02.4838|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "TransformColumnsTypesOperation",
+  "Reference": "",
+  "Tag": "2af73de0-95c3-4966-bbcc-9658f1dc1e5c",
+  "ContextTag": "50",
+  "ParentContextTag": "49"
+}
+2020-11-08 02:02:02.4838|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "TransformColumnsTypesOperation",
+  "Reference": "",
+  "Tag": "2af73de0-95c3-4966-bbcc-9658f1dc1e5c",
+  "ContextTag": "50",
+  "ParentContextTag": "49"
+}
+2020-11-08 02:02:02.4838|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "601895eb-99d6-4443-b61f-789065a5bf6c",
+  "ContextTag": "51",
+  "ParentContextTag": "50"
+}
+2020-11-08 02:02:02.4838|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "601895eb-99d6-4443-b61f-789065a5bf6c",
+  "ContextTag": "51",
+  "ParentContextTag": "50"
+}
+2020-11-08 02:02:02.4838|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "SummarizeEachOperation",
+  "Reference": "",
+  "Tag": "601895eb-99d6-4443-b61f-789065a5bf6c",
+  "ContextTag": "52",
+  "ParentContextTag": "51"
+}
+2020-11-08 02:02:02.4874|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "SummarizeEachOperation",
+  "Reference": "",
+  "Tag": "601895eb-99d6-4443-b61f-789065a5bf6c",
+  "ContextTag": "52",
+  "ParentContextTag": "51"
+}
+2020-11-08 02:02:02.4874|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "601895eb-99d6-4443-b61f-789065a5bf6c",
+  "ContextTag": "53",
+  "ParentContextTag": "52"
+}
+2020-11-08 02:02:02.4874|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "601895eb-99d6-4443-b61f-789065a5bf6c",
+  "ContextTag": "53",
+  "ParentContextTag": "52"
+}
+2020-11-08 02:02:02.4874|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "601895eb-99d6-4443-b61f-789065a5bf6c",
+  "ContextTag": "54",
+  "ParentContextTag": "53"
+}
+2020-11-08 02:02:02.4874|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "601895eb-99d6-4443-b61f-789065a5bf6c",
+  "ContextTag": "54",
+  "ParentContextTag": "53"
+}
+2020-11-08 02:02:02.4874|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "601895eb-99d6-4443-b61f-789065a5bf6c",
+  "ContextTag": "55",
+  "ParentContextTag": "54"
+}
+2020-11-08 02:02:02.4874|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "601895eb-99d6-4443-b61f-789065a5bf6c",
+  "ContextTag": "55",
+  "ParentContextTag": "54"
+}
+2020-11-08 02:02:02.4874|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "RemoveColumnsOperation",
+  "Reference": "",
+  "Tag": "601895eb-99d6-4443-b61f-789065a5bf6c",
+  "ContextTag": "56",
+  "ParentContextTag": "55"
+}
+2020-11-08 02:02:02.4874|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "RemoveColumnsOperation",
+  "Reference": "",
+  "Tag": "601895eb-99d6-4443-b61f-789065a5bf6c",
+  "ContextTag": "56",
+  "ParentContextTag": "55"
+}
+2020-11-08 02:02:02.4874|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "SkipOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "57",
+  "ParentContextTag": "56"
+}
+2020-11-08 02:02:02.6432|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"SaIe5otR1leOtXni2q4Lab6MNRSTwbxye953cKdCjS0="}|
+2020-11-08 02:02:03.1197|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"SaIe5otR1leOtXni2q4Lab6MNRSTwbxye953cKdCjS0="}|
+2020-11-08 02:02:03.6954|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "SkipOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "57",
+  "ParentContextTag": "56"
+}
+2020-11-08 02:02:03.6954|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "58",
+  "ParentContextTag": "57"
+}
+2020-11-08 02:02:03.6954|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "58",
+  "ParentContextTag": "57"
+}
+2020-11-08 02:02:03.6954|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "9103fb57-612d-47e0-84cd-c88b74b536bc",
+  "Main": "ll4GQsjL0igSL1Zn9Fp/ktNHmv6sz5TKTlLs1aRy11M="
+}
+2020-11-08 02:02:03.6954|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:04.0658|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:04.0658|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:04.0658|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:04.0666|INFO|CLexExecutor|f759ff53-a632-46cc-85a8-9ebfa1124b44|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "7788fcb4-5a84-4b3b-af52-593752bf4bc2"
+}
+2020-11-08 02:02:04.0666|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution started|{
+  "ExecutionId": "5bd90526-7496-4fc1-af75-60fef6785a66",
+  "Main": "yGWLheqZ7adjTHx+aqdJLN1pKvqiVHs0gu3uqJl3LEE="
+}
+2020-11-08 02:02:04.0666|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCacheOperationVisitor|Visiting activity. Activity: yGWLheqZ7adjTHx+aqdJLN1pKvqiVHs0gu3uqJl3LEE=|
+2020-11-08 02:02:04.0666|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "45",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:04.0666|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "59",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:04.1606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "59",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:04.1606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "60",
+  "ParentContextTag": "59"
+}
+2020-11-08 02:02:04.1606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "60",
+  "ParentContextTag": "59"
+}
+2020-11-08 02:02:04.1606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "SplitColumnOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "61",
+  "ParentContextTag": "60"
+}
+2020-11-08 02:02:04.1606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "SplitColumnOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "61",
+  "ParentContextTag": "60"
+}
+2020-11-08 02:02:04.1606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "PromoteHeadersOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "62",
+  "ParentContextTag": "61"
+}
+2020-11-08 02:02:04.1606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "PromoteHeadersOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "62",
+  "ParentContextTag": "61"
+}
+2020-11-08 02:02:04.1606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "RemoveColumnsOperation",
+  "Reference": "",
+  "Tag": "9d35e303-e6cc-4cb8-ad4d-4ac1b871c351",
+  "ContextTag": "63",
+  "ParentContextTag": "62"
+}
+2020-11-08 02:02:04.1984|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"SaIe5otR1leOtXni2q4Lab6MNRSTwbxye953cKdCjS0="}|
+2020-11-08 02:02:04.4110|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "RemoveColumnsOperation",
+  "Reference": "",
+  "Tag": "9d35e303-e6cc-4cb8-ad4d-4ac1b871c351",
+  "ContextTag": "63",
+  "ParentContextTag": "62"
+}
+2020-11-08 02:02:04.4110|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "64",
+  "ParentContextTag": "63"
+}
+2020-11-08 02:02:04.4110|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "64",
+  "ParentContextTag": "63"
+}
+2020-11-08 02:02:04.4110|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "TransformColumnsTypesOperation",
+  "Reference": "",
+  "Tag": "2af73de0-95c3-4966-bbcc-9658f1dc1e5c",
+  "ContextTag": "65",
+  "ParentContextTag": "64"
+}
+2020-11-08 02:02:04.4110|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "TransformColumnsTypesOperation",
+  "Reference": "",
+  "Tag": "2af73de0-95c3-4966-bbcc-9658f1dc1e5c",
+  "ContextTag": "65",
+  "ParentContextTag": "64"
+}
+2020-11-08 02:02:04.4110|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "SkipOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "66",
+  "ParentContextTag": "65"
+}
+2020-11-08 02:02:04.5338|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"SaIe5otR1leOtXni2q4Lab6MNRSTwbxye953cKdCjS0="}|
+2020-11-08 02:02:05.0137|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"SaIe5otR1leOtXni2q4Lab6MNRSTwbxye953cKdCjS0="}|
+2020-11-08 02:02:05.2950|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "SkipOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "66",
+  "ParentContextTag": "65"
+}
+2020-11-08 02:02:05.2950|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "67",
+  "ParentContextTag": "66"
+}
+2020-11-08 02:02:05.2950|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "67",
+  "ParentContextTag": "66"
+}
+2020-11-08 02:02:05.4476|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"SaIe5otR1leOtXni2q4Lab6MNRSTwbxye953cKdCjS0="}|
+2020-11-08 02:02:05.6832|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "5bd90526-7496-4fc1-af75-60fef6785a66",
+  "Main": "yGWLheqZ7adjTHx+aqdJLN1pKvqiVHs0gu3uqJl3LEE="
+}
+2020-11-08 02:02:05.6880|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:05.9696|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2020-11-08 02:02:05.9696|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ParseDelimitedBlock","id":"1"}|
+2020-11-08 02:02:05.9696|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.DropColumnsBlock","id":"2"}|
+2020-11-08 02:02:05.9696|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SetColumnTypesBlock","id":"3"}|
+2020-11-08 02:02:05.9696|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SetColumnTypesBlock","id":"4"}|
+2020-11-08 02:02:05.9696|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.DropColumnsBlock","id":"5"}|
+2020-11-08 02:02:05.9696|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.TakeBlock","id":"6"}|
+2020-11-08 02:02:05.9696|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.WritePreppyBlock","id":"7"}|
+2020-11-08 02:02:05.9696|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:05.9696|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:05.9696|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:05.9833|INFO|CLexExecutor|f759ff53-a632-46cc-85a8-9ebfa1124b44|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "d97950f7-f6cc-4704-9cdf-75f6d51b479d"
+}
+2020-11-08 02:02:05.9833|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution started|{
+  "ExecutionId": "9975ef35-8245-4ab8-99c0-8a517886bd33",
+  "Main": "e8zIgvMnnS107H5exDOnXhA6m1X3r02b3xFuvQ8qXNc="
+}
+2020-11-08 02:02:06.2155|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "9975ef35-8245-4ab8-99c0-8a517886bd33",
+  "Main": "e8zIgvMnnS107H5exDOnXhA6m1X3r02b3xFuvQ8qXNc="
+}
+2020-11-08 02:02:06.2155|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:06.2680|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:06.2680|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:06.2680|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:06.2680|INFO|CLexExecutor|f759ff53-a632-46cc-85a8-9ebfa1124b44|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "357b2da8-fb20-4143-8470-867a7023cad4"
+}
+2020-11-08 02:02:06.2680|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution started|{
+  "ExecutionId": "99e2b928-6244-4c5d-8312-f2efc6f2ea85",
+  "Main": "PNKbEzq05dPpKuuDBM+rVMjDn/6WMOPufw/ifthW5Dk="
+}
+2020-11-08 02:02:06.2680|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCacheOperationVisitor|Visiting activity. Activity: PNKbEzq05dPpKuuDBM+rVMjDn/6WMOPufw/ifthW5Dk=|
+2020-11-08 02:02:06.2680|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "59",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:06.2680|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "68",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:06.3606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "68",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:06.3606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "e3373e77-8921-4379-8e05-0f960aeaad1f",
+  "ContextTag": "69",
+  "ParentContextTag": "68"
+}
+2020-11-08 02:02:06.3606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "e3373e77-8921-4379-8e05-0f960aeaad1f",
+  "ContextTag": "69",
+  "ParentContextTag": "68"
+}
+2020-11-08 02:02:06.3606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "2406b192-127a-465b-96a2-4992dfc552d8",
+  "ContextTag": "70",
+  "ParentContextTag": "69"
+}
+2020-11-08 02:02:06.3606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "2406b192-127a-465b-96a2-4992dfc552d8",
+  "ContextTag": "70",
+  "ParentContextTag": "69"
+}
+2020-11-08 02:02:06.3606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "8f7135bf-2489-4e0f-931a-4779b19d4e25",
+  "ContextTag": "71",
+  "ParentContextTag": "70"
+}
+2020-11-08 02:02:06.3606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "8f7135bf-2489-4e0f-931a-4779b19d4e25",
+  "ContextTag": "71",
+  "ParentContextTag": "70"
+}
+2020-11-08 02:02:06.3606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "bc146941-09f2-4a39-b52e-34779e8acb77",
+  "ContextTag": "72",
+  "ParentContextTag": "71"
+}
+2020-11-08 02:02:06.3606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "bc146941-09f2-4a39-b52e-34779e8acb77",
+  "ContextTag": "72",
+  "ParentContextTag": "71"
+}
+2020-11-08 02:02:06.3606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "bc146941-09f2-4a39-b52e-34779e8acb77",
+  "ContextTag": "73",
+  "ParentContextTag": "72"
+}
+2020-11-08 02:02:06.3606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "bc146941-09f2-4a39-b52e-34779e8acb77",
+  "ContextTag": "73",
+  "ParentContextTag": "72"
+}
+2020-11-08 02:02:06.3606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "5fef584c-b5d2-4159-a238-bcf956a245fb",
+  "ContextTag": "74",
+  "ParentContextTag": "73"
+}
+2020-11-08 02:02:06.3606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "5fef584c-b5d2-4159-a238-bcf956a245fb",
+  "ContextTag": "74",
+  "ParentContextTag": "73"
+}
+2020-11-08 02:02:06.3606|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GetDataProfileOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "75",
+  "ParentContextTag": "74"
+}
+2020-11-08 02:02:06.3630|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GetDataProfileOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "75",
+  "ParentContextTag": "74"
+}
+2020-11-08 02:02:06.3630|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "99e2b928-6244-4c5d-8312-f2efc6f2ea85",
+  "Main": "PNKbEzq05dPpKuuDBM+rVMjDn/6WMOPufw/ifthW5Dk="
+}
+2020-11-08 02:02:06.3630|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:06.3630|INFO|CLexExecutor|f759ff53-a632-46cc-85a8-9ebfa1124b44|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "e9680ef4-35c9-4fec-8cc8-3a1b4fc03a0e"
+}
+2020-11-08 02:02:06.3630|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution started|{
+  "ExecutionId": "4f566bbf-5346-42ef-b9cd-09514a42eeae",
+  "Main": "PNKbEzq05dPpKuuDBM+rVMjDn/6WMOPufw/ifthW5Dk="
+}
+2020-11-08 02:02:06.3630|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCacheOperationVisitor|Visiting activity. Activity: PNKbEzq05dPpKuuDBM+rVMjDn/6WMOPufw/ifthW5Dk=|
+2020-11-08 02:02:06.3630|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "68",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:06.3630|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "76",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:06.4633|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "76",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:06.4633|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "e3373e77-8921-4379-8e05-0f960aeaad1f",
+  "ContextTag": "77",
+  "ParentContextTag": "76"
+}
+2020-11-08 02:02:06.4633|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "e3373e77-8921-4379-8e05-0f960aeaad1f",
+  "ContextTag": "77",
+  "ParentContextTag": "76"
+}
+2020-11-08 02:02:06.4633|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "2406b192-127a-465b-96a2-4992dfc552d8",
+  "ContextTag": "78",
+  "ParentContextTag": "77"
+}
+2020-11-08 02:02:06.4633|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "2406b192-127a-465b-96a2-4992dfc552d8",
+  "ContextTag": "78",
+  "ParentContextTag": "77"
+}
+2020-11-08 02:02:06.4633|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "8f7135bf-2489-4e0f-931a-4779b19d4e25",
+  "ContextTag": "79",
+  "ParentContextTag": "78"
+}
+2020-11-08 02:02:06.4633|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "8f7135bf-2489-4e0f-931a-4779b19d4e25",
+  "ContextTag": "79",
+  "ParentContextTag": "78"
+}
+2020-11-08 02:02:06.4633|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "bc146941-09f2-4a39-b52e-34779e8acb77",
+  "ContextTag": "80",
+  "ParentContextTag": "79"
+}
+2020-11-08 02:02:06.4633|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "bc146941-09f2-4a39-b52e-34779e8acb77",
+  "ContextTag": "80",
+  "ParentContextTag": "79"
+}
+2020-11-08 02:02:06.4633|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "bc146941-09f2-4a39-b52e-34779e8acb77",
+  "ContextTag": "81",
+  "ParentContextTag": "80"
+}
+2020-11-08 02:02:06.4633|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "SummarizeOperation",
+  "Reference": "",
+  "Tag": "bc146941-09f2-4a39-b52e-34779e8acb77",
+  "ContextTag": "81",
+  "ParentContextTag": "80"
+}
+2020-11-08 02:02:06.4633|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "5fef584c-b5d2-4159-a238-bcf956a245fb",
+  "ContextTag": "82",
+  "ParentContextTag": "81"
+}
+2020-11-08 02:02:06.4633|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "5fef584c-b5d2-4159-a238-bcf956a245fb",
+  "ContextTag": "82",
+  "ParentContextTag": "81"
+}
+2020-11-08 02:02:06.4633|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "4f566bbf-5346-42ef-b9cd-09514a42eeae",
+  "Main": "PNKbEzq05dPpKuuDBM+rVMjDn/6WMOPufw/ifthW5Dk="
+}
+2020-11-08 02:02:06.4633|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:06.4633|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:06.4633|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:06.4684|INFO|CLexExecutor|f759ff53-a632-46cc-85a8-9ebfa1124b44|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "51a7cdd7-4570-4631-bd70-2fa8483ac2a6"
+}
+2020-11-08 02:02:06.4684|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution started|{
+  "ExecutionId": "f2bd5a8c-c329-4a2d-9875-107a433238be",
+  "Main": "MQUnrdLckFMYX419vNyXFGPMfMLGJwHr0QPJGnV4JFk="
+}
+2020-11-08 02:02:06.4684|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCacheOperationVisitor|Visiting activity. Activity: MQUnrdLckFMYX419vNyXFGPMfMLGJwHr0QPJGnV4JFk=|
+2020-11-08 02:02:06.4684|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Removed from cache.|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "76",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:06.4684|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "83",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:06.5651|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GetFilesOperation",
+  "Reference": "",
+  "Tag": "2f4fdd9e-a5a9-42a8-a42b-d5421f0dbe1d",
+  "ContextTag": "83",
+  "ParentContextTag": ""
+}
+2020-11-08 02:02:06.5651|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "84",
+  "ParentContextTag": "83"
+}
+2020-11-08 02:02:06.5651|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "ReadFilesOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "84",
+  "ParentContextTag": "83"
+}
+2020-11-08 02:02:06.5651|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "SplitColumnOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "85",
+  "ParentContextTag": "84"
+}
+2020-11-08 02:02:06.5651|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "SplitColumnOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "85",
+  "ParentContextTag": "84"
+}
+2020-11-08 02:02:06.5651|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "PromoteHeadersOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "86",
+  "ParentContextTag": "85"
+}
+2020-11-08 02:02:06.5651|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "PromoteHeadersOperation",
+  "Reference": "",
+  "Tag": "7542e49a-f4cf-4408-8528-a3f81f2a0db5",
+  "ContextTag": "86",
+  "ParentContextTag": "85"
+}
+2020-11-08 02:02:06.5651|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "KeepColumnsOperation",
+  "Reference": "",
+  "Tag": "f94123e6-8617-4955-a6dc-f8f8af5ec14c",
+  "ContextTag": "87",
+  "ParentContextTag": "86"
+}
+2020-11-08 02:02:06.6905|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"SaIe5otR1leOtXni2q4Lab6MNRSTwbxye953cKdCjS0="}|
+2020-11-08 02:02:06.8937|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "KeepColumnsOperation",
+  "Reference": "",
+  "Tag": "f94123e6-8617-4955-a6dc-f8f8af5ec14c",
+  "ContextTag": "87",
+  "ParentContextTag": "86"
+}
+2020-11-08 02:02:06.8937|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "TransformColumnsTypesOperation",
+  "Reference": "",
+  "Tag": "2af73de0-95c3-4966-bbcc-9658f1dc1e5c",
+  "ContextTag": "88",
+  "ParentContextTag": "87"
+}
+2020-11-08 02:02:06.8937|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "TransformColumnsTypesOperation",
+  "Reference": "",
+  "Tag": "2af73de0-95c3-4966-bbcc-9658f1dc1e5c",
+  "ContextTag": "88",
+  "ParentContextTag": "87"
+}
+2020-11-08 02:02:06.8937|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "TransformColumnsTypesOperation",
+  "Reference": "",
+  "Tag": "911db67e-8de2-4961-baa6-2944f71c351a",
+  "ContextTag": "89",
+  "ParentContextTag": "88"
+}
+2020-11-08 02:02:06.8946|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "TransformColumnsTypesOperation",
+  "Reference": "",
+  "Tag": "911db67e-8de2-4961-baa6-2944f71c351a",
+  "ContextTag": "89",
+  "ParentContextTag": "88"
+}
+2020-11-08 02:02:06.8946|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "72c63cc3-735d-42a2-8c5f-a4bafeb73577",
+  "ContextTag": "90",
+  "ParentContextTag": "89"
+}
+2020-11-08 02:02:06.8946|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "72c63cc3-735d-42a2-8c5f-a4bafeb73577",
+  "ContextTag": "90",
+  "ParentContextTag": "89"
+}
+2020-11-08 02:02:06.8946|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "f73b4193-b326-43f7-939d-076298354fbe",
+  "ContextTag": "91",
+  "ParentContextTag": "90"
+}
+2020-11-08 02:02:06.8946|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "GroupOperation",
+  "Reference": "",
+  "Tag": "f73b4193-b326-43f7-939d-076298354fbe",
+  "ContextTag": "91",
+  "ParentContextTag": "90"
+}
+2020-11-08 02:02:06.8946|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "SummarizeEachOperation",
+  "Reference": "",
+  "Tag": "f73b4193-b326-43f7-939d-076298354fbe",
+  "ContextTag": "92",
+  "ParentContextTag": "91"
+}
+2020-11-08 02:02:06.8946|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "SummarizeEachOperation",
+  "Reference": "",
+  "Tag": "f73b4193-b326-43f7-939d-076298354fbe",
+  "ContextTag": "92",
+  "ParentContextTag": "91"
+}
+2020-11-08 02:02:06.8946|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "f73b4193-b326-43f7-939d-076298354fbe",
+  "ContextTag": "93",
+  "ParentContextTag": "92"
+}
+2020-11-08 02:02:06.8946|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "f73b4193-b326-43f7-939d-076298354fbe",
+  "ContextTag": "93",
+  "ParentContextTag": "92"
+}
+2020-11-08 02:02:06.8946|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "f73b4193-b326-43f7-939d-076298354fbe",
+  "ContextTag": "94",
+  "ParentContextTag": "93"
+}
+2020-11-08 02:02:06.8946|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "f73b4193-b326-43f7-939d-076298354fbe",
+  "ContextTag": "94",
+  "ParentContextTag": "93"
+}
+2020-11-08 02:02:06.8946|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "f73b4193-b326-43f7-939d-076298354fbe",
+  "ContextTag": "95",
+  "ParentContextTag": "94"
+}
+2020-11-08 02:02:06.8946|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "AddColumnsOperation",
+  "Reference": "",
+  "Tag": "f73b4193-b326-43f7-939d-076298354fbe",
+  "ContextTag": "95",
+  "ParentContextTag": "94"
+}
+2020-11-08 02:02:06.8946|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "RemoveColumnsOperation",
+  "Reference": "",
+  "Tag": "f73b4193-b326-43f7-939d-076298354fbe",
+  "ContextTag": "96",
+  "ParentContextTag": "95"
+}
+2020-11-08 02:02:06.8946|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "RemoveColumnsOperation",
+  "Reference": "",
+  "Tag": "f73b4193-b326-43f7-939d-076298354fbe",
+  "ContextTag": "96",
+  "ParentContextTag": "95"
+}
+2020-11-08 02:02:06.8946|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "SkipOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "97",
+  "ParentContextTag": "96"
+}
+2020-11-08 02:02:07.0327|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"SaIe5otR1leOtXni2q4Lab6MNRSTwbxye953cKdCjS0="}|
+2020-11-08 02:02:07.4085|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: DataSourceGetFiles|metrics: {"size":4150422.0}, properties: {"datasourcePath":"SaIe5otR1leOtXni2q4Lab6MNRSTwbxye953cKdCjS0="}|
+2020-11-08 02:02:07.6445|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "SkipOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "97",
+  "ParentContextTag": "96"
+}
+2020-11-08 02:02:07.6445|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Build RDD|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "98",
+  "ParentContextTag": "97"
+}
+2020-11-08 02:02:07.6445|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|QueryCache|Cache added|{
+  "Operation": "TakeOperation",
+  "Reference": "",
+  "Tag": "",
+  "ContextTag": "98",
+  "ParentContextTag": "97"
+}
+2020-11-08 02:02:07.6445|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "f2bd5a8c-c329-4a2d-9875-107a433238be",
+  "Main": "MQUnrdLckFMYX419vNyXFGPMfMLGJwHr0QPJGnV4JFk="
+}
+2020-11-08 02:02:07.6445|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:07.6864|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2020-11-08 02:02:07.6865|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ParseDelimitedBlock","id":"1"}|
+2020-11-08 02:02:07.6865|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.DropColumnsBlock","id":"2"}|
+2020-11-08 02:02:07.6865|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SetColumnTypesBlock","id":"3"}|
+2020-11-08 02:02:07.6865|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SetColumnTypesBlock","id":"4"}|
+2020-11-08 02:02:07.6865|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.DropColumnsBlock","id":"5"}|
+2020-11-08 02:02:07.6865|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SetRsLexContextBlock","id":"6"}|
+2020-11-08 02:02:07.6865|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:07.6865|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:07.6865|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:07.6865|INFO|CLexExecutor|f759ff53-a632-46cc-85a8-9ebfa1124b44|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "2bb1d948-ce0e-4d18-b6a4-b44575384a47"
+}
+2020-11-08 02:02:07.6865|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution started|{
+  "ExecutionId": "7e94bf02-9796-419f-96d0-e58437107af4",
+  "Main": "Dqs2Tz4BjiZrH1YaGX6tqlCSXcD8Ey5uTWqQEp0mr5I="
+}
+2020-11-08 02:02:08.0020|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "7e94bf02-9796-419f-96d0-e58437107af4",
+  "Main": "Dqs2Tz4BjiZrH1YaGX6tqlCSXcD8Ey5uTWqQEp0mr5I="
+}
+2020-11-08 02:02:08.0020|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:08.0848|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.GetFilesBlock","id":"0"}|
+2020-11-08 02:02:08.0848|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.ParseDelimitedBlock","id":"1"}|
+2020-11-08 02:02:08.0848|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.DropColumnsBlock","id":"2"}|
+2020-11-08 02:02:08.0848|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SetColumnTypesBlock","id":"3"}|
+2020-11-08 02:02:08.0848|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SetColumnTypesBlock","id":"4"}|
+2020-11-08 02:02:08.0848|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.KeepColumnsBlock","id":"5"}|
+2020-11-08 02:02:08.0848|DEBUG|Telemetry|f759ff53-a632-46cc-85a8-9ebfa1124b44|event: StepInfo|metrics: {}, properties: {"blockType":"Microsoft.DPrep.SetRsLexContextBlock","id":"6"}|
+2020-11-08 02:02:08.0848|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Starting cached execution|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:08.0848|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Resolving activity reference|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:08.0848|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|No cache block found|{
+  "CachePath": null,
+  "Exception": null
+}
+2020-11-08 02:02:08.0848|INFO|CLexExecutor|f759ff53-a632-46cc-85a8-9ebfa1124b44|ExecuteLariatScriptAsync|Start Execution|{
+  "Id": "9cb45bba-ef18-4b8b-9031-be2b69bc6a36"
+}
+2020-11-08 02:02:08.0876|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution started|{
+  "ExecutionId": "ea2f4054-d129-4dd3-995f-181b5ac2da90",
+  "Main": "jvt5z44Jp/TlAaAESgAqltXJwwywnUUJl4lOtaWClgM="
+}
+2020-11-08 02:02:08.3383|DEBUG|CLex|f759ff53-a632-46cc-85a8-9ebfa1124b44|MapReduceExecutor|Execution Succeeded|{
+  "ExecutionId": "ea2f4054-d129-4dd3-995f-181b5ac2da90",
+  "Main": "jvt5z44Jp/TlAaAESgAqltXJwwywnUUJl4lOtaWClgM="
+}
+2020-11-08 02:02:08.3383|DEBUG|Caching|f759ff53-a632-46cc-85a8-9ebfa1124b44|CachingOrchestrator|Cached execution completed|{
+  "CachePath": null,
+  "Exception": null
+}

@@ -1,0 +1,359 @@
+2020-11-08 02:01:47.607 - INFO - 119 - azureml.train.automl.runtime._remote.remote_utilities._parse_settings:46 - Changing AutoML temporary path to current working directory.
+2020-11-08 02:01:47.759 - INFO - 119 - azureml.train.automl.runtime._remote_script._get_cache_data_store:149 - Successfully got the cache data store, caching enabled.
+2020-11-08 02:01:47.759 - INFO - 119 - azureml.train.automl.runtime._remote_script._get_cache_data_store:160 - Took 0.1375424861907959 seconds to retrieve cache data store
+2020-11-08 02:01:47.982 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: load
+2020-11-08 02:01:47.992 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=load, HowEnded=Success, Duration=10.15[ms]
+2020-11-08 02:01:48.452 - INFO - 119 - azureml.train.automl.runtime._remote_script.transfer_files_from_setup:801 - Setup artifacts successfully retrieved.
+2020-11-08 02:01:48.452 - INFO - 119 - azureml.train.automl.runtime._remote_script._prep_input_data:711 - Preparing input data for featurization iteration for run AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_featurize_tr.
+2020-11-08 02:01:48.453 - INFO - 119 - azureml.train.automl.runtime._data_preparer.get_preparer:260 - Resolving dataflows using dprep json.
+2020-11-08 02:01:48.453 - INFO - 119 - azureml.train.automl.runtime._data_preparer.get_preparer:261 - DataPrep version: 2.3.2
+2020-11-08 02:01:48.453 - INFO - 119 - azureml.train.automl.runtime._data_preparer.get_preparer:264 - DataPrep log client session id: f759ff53-a632-46cc-85a8-9ebfa1124b44
+2020-11-08 02:01:48.454 - INFO - 119 - azureml.train.automl.runtime._data_preparer._log_activity:46 - ActivityStarted: ParsingDataprepJSON
+2020-11-08 02:01:48.454 - INFO - 119 - azureml.train.automl.runtime._data_preparer._parse:118 - Creating dataflow from datasets for training_data and validation_data.
+2020-11-08 02:01:55.711 - INFO - 119 - azureml.train.automl.runtime._data_preparer._log_activity:70 - ActivityCompleted: Activity=ParsingDataprepJSON, HowEnded=Success, Duration=7256.52[ms]
+2020-11-08 02:01:55.711 - INFO - 119 - azureml.train.automl.runtime._data_preparer._log_activity:46 - ActivityStarted: BuildingDataCharacteristics
+2020-11-08 02:01:55.719 - INFO - 119 - azureml.train.automl.runtime._data_preparer._buiid_data_characterstics:101 - Starting data characteristics calculation. This might take a while...
+2020-11-08 02:02:03.701 - INFO - 119 - azureml.train.automl.runtime._data_preparer._log_activity:70 - ActivityCompleted: Activity=BuildingDataCharacteristics, HowEnded=Success, Duration=7989.77[ms]
+2020-11-08 02:02:03.701 - INFO - 119 - azureml.train.automl.runtime._data_preparer.get_preparer:279 - Successfully retrieved data using dataprep.
+2020-11-08 02:02:04.031 - INFO - 119 - azureml.train.automl.runtime._remote_script._prep_input_data:739 - Service responded with streaming disabled
+2020-11-08 02:02:04.031 - INFO - 119 - azureml.train.automl.runtime._data_preparer._get_inferred_types_dataflow:515 - Inferring type for feature columns.
+2020-11-08 02:02:08.347 - INFO - 119 - azureml.automl.runtime._automl_settings_utilities.rule_based_validation:85 - Rule based validation: Using rule based train/test splits.
+2020-11-08 02:02:08.400 - INFO - 119 - azureml.automl.runtime._automl_settings_utilities.rule_based_validation:97 - Rule based validation: Using stratified sampling.
+2020-11-08 02:02:08.401 - INFO - 119 - azureml.automl.runtime.data_transformation.create_transformed_data_context_no_streaming:168 - Pre-processing user data
+2020-11-08 02:02:08.402 - INFO - 119 - azureml.automl.runtime.data_transformation.create_transformed_data_context_no_streaming:169 - The size of the raw data is: 5536566
+2020-11-08 02:02:08.456 - INFO - 119 - azureml.automl.core.shared.utilities._log_raw_data_stat:233 - [YCol]RawFeatureStats:{"num_unique_vals": "2", "total_number_vals": "29655", "total_number_vals_including_nans": "29655", "num_na": "0", "column_type": "\"string\"", "lengths": "{}", "num_unique_lens": "2", "average_entry_length": "2.1120553026471085", "average_number_spaces": "0.0", "cardinality_ratio": "6.744225257123588e-05", "is_datetime": "false", "is_all_nan": "false", "unicode_median_value": "110.0"}
+2020-11-08 02:02:08.457 - INFO - 119 - azureml.automl.runtime.data_transformation._remove_nan_rows_in_X_y:1167 - Inspecting target column for missing values.
+2020-11-08 02:02:08.457 - INFO - 119 - azureml.automl.runtime.data_transformation._remove_nan_rows_in_X_y:1167 - Inspecting target column for missing values.
+2020-11-08 02:02:08.460 - INFO - 119 - azureml.automl.runtime.data_transformation._y_transform:1102 - Start doing label encoding on y data.
+2020-11-08 02:02:08.466 - INFO - 119 - azureml.automl.runtime.data_transformation._y_transform:1111 - End doing label encoding on y data.
+2020-11-08 02:02:08.466 - INFO - 119 - azureml.automl.runtime.data_transformation._log_data_info:820 - X datatype is <class 'numpy.ndarray'>, shape is (29655, 20), datasize is 4744912.
+2020-11-08 02:02:08.466 - INFO - 119 - azureml.automl.runtime.data_transformation._log_data_info:825 - y datatype is <class 'numpy.ndarray'>, shape is (29655,), datasize is 237336.
+2020-11-08 02:02:08.466 - INFO - 119 - azureml.automl.runtime.data_transformation._log_data_info:832 - X_valid datatype is <class 'numpy.ndarray'>, shape is (3295, 20), datasize is 527312.
+2020-11-08 02:02:08.467 - INFO - 119 - azureml.automl.runtime.data_transformation._log_data_info:839 - y_valid datatype is <class 'numpy.ndarray'>, shape is (3295,), datasize is 26456.
+2020-11-08 02:02:08.536 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping enabled: False
+2020-11-08 02:02:08.537 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping timeout: 86400
+2020-11-08 02:02:08.631 - INFO - 119 - azureml.automl.runtime._data_transformation_utilities._log_activity:46 - ActivityStarted: FeatureConfigDownload
+2020-11-08 02:02:08.633 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping enabled: False
+2020-11-08 02:02:08.633 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Feature sweeping timeout: 86400
+2020-11-08 02:02:08.634 - INFO - 119 - azureml.automl.runtime._data_transformation_utilities._log_activity:70 - ActivityCompleted: Activity=FeatureConfigDownload, HowEnded=Success, Duration=3.55[ms]
+2020-11-08 02:02:08.635 - INFO - 119 - azureml.automl.runtime._data_transformation_utilities._log_activity:46 - ActivityStarted: EngineeredFeatureNamesDownload
+2020-11-08 02:02:08.635 - INFO - 119 - azureml.automl.runtime._data_transformation_utilities._log_activity:70 - ActivityCompleted: Activity=EngineeredFeatureNamesDownload, HowEnded=Success, Duration=0.48[ms]
+2020-11-08 02:02:08.636 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: load
+2020-11-08 02:02:08.646 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=load, HowEnded=Success, Duration=9.53[ms]
+2020-11-08 02:02:08.646 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.get:163 - Getting [] from Azure file store cache
+2020-11-08 02:02:08.646 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: get
+2020-11-08 02:02:08.646 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=get, HowEnded=Success, Duration=0.05[ms]
+2020-11-08 02:02:08.646 - INFO - 119 - azureml.train.automl.runtime._automl_job_phases.featurization_phase.run:42 - Set problem info. AutoML featurization for run AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_featurize_tr.
+2020-11-08 02:02:08.646 - INFO - 119 - azureml.train.automl.runtime._automl_job_phases.utilities._log_activity:46 - ActivityStarted: Getting transformed data context.
+2020-11-08 02:02:08.646 - INFO - 119 - azureml.train.automl.runtime._automl_job_phases.utilities._transform_and_validate_input_data:139 - Using AzureFileCacheStore for caching transformed data.
+2020-11-08 02:02:08.646 - INFO - 119 - azureml.train.automl.runtime._automl_job_phases.utilities._log_activity:46 - ActivityStarted: Beginning full featurization logic.
+2020-11-08 02:02:08.646 - INFO - 119 - azureml.automl.runtime.data_transformation._class_balancing_check:1135 - Start checking class balancing on y data.
+2020-11-08 02:02:08.662 - INFO - 119 - azureml.automl.runtime.data_transformation._class_balancing_check:1143 - Classes are imbalanced in training data.
+2020-11-08 02:02:09.955 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Starting to apply transforms. Total ram: 29504262144 bytes
+2020-11-08 02:02:09.956 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22320553984 bytes
+2020-11-08 02:02:09.956 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-08 02:02:09.959 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (29655, 1)
+2020-11-08 02:02:09.960 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22320717824 bytes
+2020-11-08 02:02:09.960 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-08 02:02:09.963 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (29655, 1)
+2020-11-08 02:02:09.963 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22320717824 bytes
+2020-11-08 02:02:09.964 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-08 02:02:09.966 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (29655, 1)
+2020-11-08 02:02:09.967 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22320717824 bytes
+2020-11-08 02:02:09.967 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-08 02:02:09.969 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (29655, 1)
+2020-11-08 02:02:09.970 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22320717824 bytes
+2020-11-08 02:02:09.970 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-08 02:02:09.972 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (29655, 1)
+2020-11-08 02:02:09.973 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22320717824 bytes
+2020-11-08 02:02:09.973 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-08 02:02:09.984 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (29655, 1)
+2020-11-08 02:02:09.984 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22320717824 bytes
+2020-11-08 02:02:09.984 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-08 02:02:09.987 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (29655, 1)
+2020-11-08 02:02:09.990 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22320717824 bytes
+2020-11-08 02:02:09.990 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:10.089 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (29655, 12)
+2020-11-08 02:02:10.089 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22320541696 bytes
+2020-11-08 02:02:10.089 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:10.186 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (29655, 4)
+2020-11-08 02:02:10.187 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22320541696 bytes
+2020-11-08 02:02:10.187 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:10.282 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (29655, 8)
+2020-11-08 02:02:10.283 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22320541696 bytes
+2020-11-08 02:02:10.283 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:10.390 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (29655, 3)
+2020-11-08 02:02:10.391 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22320541696 bytes
+2020-11-08 02:02:10.391 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:10.485 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (29655, 3)
+2020-11-08 02:02:10.486 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22320541696 bytes
+2020-11-08 02:02:10.486 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:10.582 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (29655, 3)
+2020-11-08 02:02:10.582 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22320541696 bytes
+2020-11-08 02:02:10.582 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Applying transform.
+2020-11-08 02:02:10.605 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Finished applying transform. Shape (29655, 1)
+2020-11-08 02:02:10.606 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22320611328 bytes
+2020-11-08 02:02:10.606 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:10.705 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (29655, 10)
+2020-11-08 02:02:10.705 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22320611328 bytes
+2020-11-08 02:02:10.706 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:10.801 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (29655, 5)
+2020-11-08 02:02:10.802 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22320611328 bytes
+2020-11-08 02:02:10.802 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:10.915 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (29655, 39)
+2020-11-08 02:02:10.915 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22319849472 bytes
+2020-11-08 02:02:10.916 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:11.029 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (29655, 26)
+2020-11-08 02:02:11.043 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22319849472 bytes
+2020-11-08 02:02:11.044 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:11.157 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (29655, 8)
+2020-11-08 02:02:11.158 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22319849472 bytes
+2020-11-08 02:02:11.159 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:11.256 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (29655, 3)
+2020-11-08 02:02:11.256 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Finished applying transforms
+2020-11-08 02:02:11.258 - INFO - 119 - azureml.automl.runtime.shared.memory_utilities._is_low_memory:208 - Total ram: 29504262144 bytes, Current Available memory: 22319849472 bytes. Low memory threshold: 0.5
+2020-11-08 02:02:11.299 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Starting to apply transforms. Total ram: 29504262144 bytes
+2020-11-08 02:02:11.299 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307082240 bytes
+2020-11-08 02:02:11.299 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-08 02:02:11.301 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3295, 1)
+2020-11-08 02:02:11.302 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307082240 bytes
+2020-11-08 02:02:11.302 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-08 02:02:11.304 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3295, 1)
+2020-11-08 02:02:11.305 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307082240 bytes
+2020-11-08 02:02:11.305 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-08 02:02:11.306 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3295, 1)
+2020-11-08 02:02:11.307 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307082240 bytes
+2020-11-08 02:02:11.307 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-08 02:02:11.309 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3295, 1)
+2020-11-08 02:02:11.313 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307307520 bytes
+2020-11-08 02:02:11.319 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-08 02:02:11.321 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3295, 1)
+2020-11-08 02:02:11.322 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307307520 bytes
+2020-11-08 02:02:11.322 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-08 02:02:11.324 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3295, 1)
+2020-11-08 02:02:11.325 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307307520 bytes
+2020-11-08 02:02:11.325 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Applying transform.
+2020-11-08 02:02:11.327 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - SimpleImputer: Finished applying transform. Shape (3295, 1)
+2020-11-08 02:02:11.328 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307307520 bytes
+2020-11-08 02:02:11.328 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:11.339 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (3295, 12)
+2020-11-08 02:02:11.340 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307336192 bytes
+2020-11-08 02:02:11.340 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:11.352 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (3295, 4)
+2020-11-08 02:02:11.352 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307336192 bytes
+2020-11-08 02:02:11.353 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:11.365 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (3295, 8)
+2020-11-08 02:02:11.366 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307336192 bytes
+2020-11-08 02:02:11.366 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:11.377 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (3295, 3)
+2020-11-08 02:02:11.378 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307209216 bytes
+2020-11-08 02:02:11.378 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:11.390 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (3295, 3)
+2020-11-08 02:02:11.390 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307209216 bytes
+2020-11-08 02:02:11.391 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:11.402 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (3295, 3)
+2020-11-08 02:02:11.403 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307209216 bytes
+2020-11-08 02:02:11.403 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Applying transform.
+2020-11-08 02:02:11.409 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - CatImputer,StringCastTransformer,LabelEncoderTransformer: Finished applying transform. Shape (3295, 1)
+2020-11-08 02:02:11.410 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307209216 bytes
+2020-11-08 02:02:11.410 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:11.421 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (3295, 10)
+2020-11-08 02:02:11.422 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307209216 bytes
+2020-11-08 02:02:11.422 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:11.433 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (3295, 5)
+2020-11-08 02:02:11.434 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307209216 bytes
+2020-11-08 02:02:11.434 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:11.447 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (3295, 39)
+2020-11-08 02:02:11.448 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307209216 bytes
+2020-11-08 02:02:11.448 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:11.461 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (3295, 26)
+2020-11-08 02:02:11.461 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307209216 bytes
+2020-11-08 02:02:11.461 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:11.474 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (3295, 8)
+2020-11-08 02:02:11.475 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Transform memory estimate: 0 bytes, Current available memory: 22307176448 bytes
+2020-11-08 02:02:11.475 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Applying transform.
+2020-11-08 02:02:11.487 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - StringCastTransformer,CountVectorizer: Finished applying transform. Shape (3295, 3)
+2020-11-08 02:02:11.487 - INFO - 119 - azureml.automl.runtime.featurization.data_transformer._logger_wrapper:81 - Finished applying transforms
+2020-11-08 02:02:11.488 - INFO - 119 - azureml.automl.runtime.shared.memory_utilities._is_low_memory:208 - Total ram: 29504262144 bytes, Current Available memory: 22307049472 bytes. Low memory threshold: 0.5
+2020-11-08 02:02:11.496 - INFO - 119 - azureml.automl.runtime.data_transformation._perform_class_balancing_sweeping:1488 - Performing class balancing sweeping
+2020-11-08 02:02:11.504 - INFO - 119 - azureml.automl.runtime.sweeping.meta_sweeper._sweep_balancing:165 - Class balancing sweeping disabled
+2020-11-08 02:02:11.504 - INFO - 119 - azureml.automl.runtime.shared.resource_limits.__init__:78 - Limits set to mem_in_mb=None, wall_time_in_s=3600, total_wall_time_in_s=31449600, cpu_time_in_s=None, num_processes=None, grace_period_in_s=None, 
+2020-11-08 02:02:11.505 - INFO - 119 - azureml.automl.runtime.shared.limit_function_call_spawn.execute:108 - Calling function <function MetaSweeper._sweep_balancing_internal at 0x7f33c56496a8> with argument types: [<class 'list'>], {}
+2020-11-08 02:02:14.583 - INFO - 384 - azureml.automl.runtime.distributed.utilities.horovod_initialized:58 - Horovod not found in current environment. Distribution via Horovod will be disabled.
+2020-11-08 02:02:15.465 - INFO - 384 - azureml.automl.runtime.sweeping.meta_sweeper._sweep_balancing_internal:289 - Begin Balancing Sweeping...
+2020-11-08 02:02:15.465 - INFO - 384 - azureml.automl.runtime.sweeping.meta_sweeper._sweep_balancing_internal:300 - Finished sweeping with all balancing sweepers.
+2020-11-08 02:02:15.991 - INFO - 119 - azureml.automl.runtime.data_transformation._perform_class_balancing_sweeping:1498 - Finished class balancing sweeping
+2020-11-08 02:02:15.991 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:128 - Adding data to Azure file store cache
+2020-11-08 02:02:15.993 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: add
+2020-11-08 02:02:15.993 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:132 - Uploading key: X
+2020-11-08 02:02:15.993 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _serialize_and_upload
+2020-11-08 02:02:16.370 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _persist_saved_as_file
+2020-11-08 02:02:16.465 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_persist_saved_as_file, HowEnded=Success, Duration=95.57[ms]
+2020-11-08 02:02:16.471 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore._persist_saved_as_file:288 - Persisted saved_as file. The saved_as object is: {'X': <_SavedAsProtocol.SCIPY: 3>}
+2020-11-08 02:02:16.477 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_serialize_and_upload, HowEnded=Success, Duration=483.49[ms]
+2020-11-08 02:02:16.477 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=add, HowEnded=Success, Duration=484.52[ms]
+2020-11-08 02:02:16.477 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:128 - Adding data to Azure file store cache
+2020-11-08 02:02:16.478 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: add
+2020-11-08 02:02:16.478 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:132 - Uploading key: y
+2020-11-08 02:02:16.478 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _serialize_and_upload
+2020-11-08 02:02:16.552 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _persist_saved_as_file
+2020-11-08 02:02:16.641 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_persist_saved_as_file, HowEnded=Success, Duration=89.41[ms]
+2020-11-08 02:02:16.647 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore._persist_saved_as_file:288 - Persisted saved_as file. The saved_as object is: {'X': <_SavedAsProtocol.SCIPY: 3>, 'y': <_SavedAsProtocol.NUMPY: 2>}
+2020-11-08 02:02:16.653 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_serialize_and_upload, HowEnded=Success, Duration=174.93[ms]
+2020-11-08 02:02:16.653 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=add, HowEnded=Success, Duration=175.26[ms]
+2020-11-08 02:02:16.653 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:128 - Adding data to Azure file store cache
+2020-11-08 02:02:16.653 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: add
+2020-11-08 02:02:16.653 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:132 - Uploading key: X_valid
+2020-11-08 02:02:16.653 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _serialize_and_upload
+2020-11-08 02:02:16.718 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _persist_saved_as_file
+2020-11-08 02:02:16.816 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_persist_saved_as_file, HowEnded=Success, Duration=98.22[ms]
+2020-11-08 02:02:16.822 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore._persist_saved_as_file:288 - Persisted saved_as file. The saved_as object is: {'X': <_SavedAsProtocol.SCIPY: 3>, 'y': <_SavedAsProtocol.NUMPY: 2>, 'X_valid': <_SavedAsProtocol.SCIPY: 3>}
+2020-11-08 02:02:16.828 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_serialize_and_upload, HowEnded=Success, Duration=174.41[ms]
+2020-11-08 02:02:16.828 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=add, HowEnded=Success, Duration=174.82[ms]
+2020-11-08 02:02:16.828 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:128 - Adding data to Azure file store cache
+2020-11-08 02:02:16.829 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: add
+2020-11-08 02:02:16.829 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:132 - Uploading key: y_valid
+2020-11-08 02:02:16.830 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _serialize_and_upload
+2020-11-08 02:02:16.884 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _persist_saved_as_file
+2020-11-08 02:02:16.974 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_persist_saved_as_file, HowEnded=Success, Duration=90.22[ms]
+2020-11-08 02:02:16.981 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore._persist_saved_as_file:288 - Persisted saved_as file. The saved_as object is: {'X': <_SavedAsProtocol.SCIPY: 3>, 'y': <_SavedAsProtocol.NUMPY: 2>, 'X_valid': <_SavedAsProtocol.SCIPY: 3>, 'y_valid': <_SavedAsProtocol.NUMPY: 2>}
+2020-11-08 02:02:16.987 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_serialize_and_upload, HowEnded=Success, Duration=157.02[ms]
+2020-11-08 02:02:16.987 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=add, HowEnded=Success, Duration=157.8[ms]
+2020-11-08 02:02:16.987 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:128 - Adding data to Azure file store cache
+2020-11-08 02:02:16.987 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: add
+2020-11-08 02:02:16.987 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:132 - Uploading key: sample_weight
+2020-11-08 02:02:16.987 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _serialize_and_upload
+2020-11-08 02:02:17.079 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _persist_saved_as_file
+2020-11-08 02:02:17.173 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_persist_saved_as_file, HowEnded=Success, Duration=93.9[ms]
+2020-11-08 02:02:17.179 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore._persist_saved_as_file:288 - Persisted saved_as file. The saved_as object is: {'X': <_SavedAsProtocol.SCIPY: 3>, 'y': <_SavedAsProtocol.NUMPY: 2>, 'X_valid': <_SavedAsProtocol.SCIPY: 3>, 'y_valid': <_SavedAsProtocol.NUMPY: 2>, 'sample_weight': <_SavedAsProtocol.PICKLE: 1>}
+2020-11-08 02:02:17.185 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_serialize_and_upload, HowEnded=Success, Duration=197.91[ms]
+2020-11-08 02:02:17.185 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=add, HowEnded=Success, Duration=198.19[ms]
+2020-11-08 02:02:17.185 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:128 - Adding data to Azure file store cache
+2020-11-08 02:02:17.186 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: add
+2020-11-08 02:02:17.186 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:132 - Uploading key: sample_weight_valid
+2020-11-08 02:02:17.186 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _serialize_and_upload
+2020-11-08 02:02:17.280 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _persist_saved_as_file
+2020-11-08 02:02:17.374 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_persist_saved_as_file, HowEnded=Success, Duration=93.8[ms]
+2020-11-08 02:02:17.381 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore._persist_saved_as_file:288 - Persisted saved_as file. The saved_as object is: {'X': <_SavedAsProtocol.SCIPY: 3>, 'y': <_SavedAsProtocol.NUMPY: 2>, 'X_valid': <_SavedAsProtocol.SCIPY: 3>, 'y_valid': <_SavedAsProtocol.NUMPY: 2>, 'sample_weight': <_SavedAsProtocol.PICKLE: 1>, 'sample_weight_valid': <_SavedAsProtocol.PICKLE: 1>}
+2020-11-08 02:02:17.399 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_serialize_and_upload, HowEnded=Success, Duration=212.74[ms]
+2020-11-08 02:02:17.399 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=add, HowEnded=Success, Duration=213.23[ms]
+2020-11-08 02:02:17.399 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:128 - Adding data to Azure file store cache
+2020-11-08 02:02:17.400 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: add
+2020-11-08 02:02:17.400 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:132 - Uploading key: x_raw_column_names
+2020-11-08 02:02:17.400 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _serialize_and_upload
+2020-11-08 02:02:17.509 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _persist_saved_as_file
+2020-11-08 02:02:17.602 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_persist_saved_as_file, HowEnded=Success, Duration=92.38[ms]
+2020-11-08 02:02:17.609 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore._persist_saved_as_file:288 - Persisted saved_as file. The saved_as object is: {'X': <_SavedAsProtocol.SCIPY: 3>, 'y': <_SavedAsProtocol.NUMPY: 2>, 'X_valid': <_SavedAsProtocol.SCIPY: 3>, 'y_valid': <_SavedAsProtocol.NUMPY: 2>, 'sample_weight': <_SavedAsProtocol.PICKLE: 1>, 'sample_weight_valid': <_SavedAsProtocol.PICKLE: 1>, 'x_raw_column_names': <_SavedAsProtocol.PICKLE: 1>}
+2020-11-08 02:02:17.617 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_serialize_and_upload, HowEnded=Success, Duration=216.73[ms]
+2020-11-08 02:02:17.617 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=add, HowEnded=Success, Duration=217.11[ms]
+2020-11-08 02:02:17.617 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:128 - Adding data to Azure file store cache
+2020-11-08 02:02:17.618 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: add
+2020-11-08 02:02:17.618 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:132 - Uploading key: cv_splits_indices
+2020-11-08 02:02:17.618 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _serialize_and_upload
+2020-11-08 02:02:17.726 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _persist_saved_as_file
+2020-11-08 02:02:17.817 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_persist_saved_as_file, HowEnded=Success, Duration=90.33[ms]
+2020-11-08 02:02:17.823 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore._persist_saved_as_file:288 - Persisted saved_as file. The saved_as object is: {'X': <_SavedAsProtocol.SCIPY: 3>, 'y': <_SavedAsProtocol.NUMPY: 2>, 'X_valid': <_SavedAsProtocol.SCIPY: 3>, 'y_valid': <_SavedAsProtocol.NUMPY: 2>, 'sample_weight': <_SavedAsProtocol.PICKLE: 1>, 'sample_weight_valid': <_SavedAsProtocol.PICKLE: 1>, 'x_raw_column_names': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits_indices': <_SavedAsProtocol.PICKLE: 1>}
+2020-11-08 02:02:17.830 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_serialize_and_upload, HowEnded=Success, Duration=212.04[ms]
+2020-11-08 02:02:17.830 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=add, HowEnded=Success, Duration=212.44[ms]
+2020-11-08 02:02:17.830 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:128 - Adding data to Azure file store cache
+2020-11-08 02:02:17.831 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: add
+2020-11-08 02:02:17.831 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:132 - Uploading key: transformers
+2020-11-08 02:02:17.831 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _serialize_and_upload
+2020-11-08 02:02:17.894 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _persist_saved_as_file
+2020-11-08 02:02:17.986 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_persist_saved_as_file, HowEnded=Success, Duration=92.43[ms]
+2020-11-08 02:02:17.993 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore._persist_saved_as_file:288 - Persisted saved_as file. The saved_as object is: {'X': <_SavedAsProtocol.SCIPY: 3>, 'y': <_SavedAsProtocol.NUMPY: 2>, 'X_valid': <_SavedAsProtocol.SCIPY: 3>, 'y_valid': <_SavedAsProtocol.NUMPY: 2>, 'sample_weight': <_SavedAsProtocol.PICKLE: 1>, 'sample_weight_valid': <_SavedAsProtocol.PICKLE: 1>, 'x_raw_column_names': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits_indices': <_SavedAsProtocol.PICKLE: 1>, 'transformers': <_SavedAsProtocol.PICKLE: 1>}
+2020-11-08 02:02:17.999 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_serialize_and_upload, HowEnded=Success, Duration=167.99[ms]
+2020-11-08 02:02:17.999 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=add, HowEnded=Success, Duration=168.36[ms]
+2020-11-08 02:02:18.000 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:128 - Adding data to Azure file store cache
+2020-11-08 02:02:18.000 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: add
+2020-11-08 02:02:18.000 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:132 - Uploading key: cv_splits
+2020-11-08 02:02:18.000 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _serialize_and_upload
+2020-11-08 02:02:18.096 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _persist_saved_as_file
+2020-11-08 02:02:18.191 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_persist_saved_as_file, HowEnded=Success, Duration=95.25[ms]
+2020-11-08 02:02:18.197 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore._persist_saved_as_file:288 - Persisted saved_as file. The saved_as object is: {'X': <_SavedAsProtocol.SCIPY: 3>, 'y': <_SavedAsProtocol.NUMPY: 2>, 'X_valid': <_SavedAsProtocol.SCIPY: 3>, 'y_valid': <_SavedAsProtocol.NUMPY: 2>, 'sample_weight': <_SavedAsProtocol.PICKLE: 1>, 'sample_weight_valid': <_SavedAsProtocol.PICKLE: 1>, 'x_raw_column_names': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits_indices': <_SavedAsProtocol.PICKLE: 1>, 'transformers': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits': <_SavedAsProtocol.PICKLE: 1>}
+2020-11-08 02:02:18.203 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_serialize_and_upload, HowEnded=Success, Duration=202.81[ms]
+2020-11-08 02:02:18.203 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=add, HowEnded=Success, Duration=203.18[ms]
+2020-11-08 02:02:18.203 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:128 - Adding data to Azure file store cache
+2020-11-08 02:02:18.204 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: add
+2020-11-08 02:02:18.204 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:132 - Uploading key: _on_demand_pickle_keys
+2020-11-08 02:02:18.204 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _serialize_and_upload
+2020-11-08 02:02:18.321 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _persist_saved_as_file
+2020-11-08 02:02:18.415 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_persist_saved_as_file, HowEnded=Success, Duration=93.91[ms]
+2020-11-08 02:02:18.421 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore._persist_saved_as_file:288 - Persisted saved_as file. The saved_as object is: {'X': <_SavedAsProtocol.SCIPY: 3>, 'y': <_SavedAsProtocol.NUMPY: 2>, 'X_valid': <_SavedAsProtocol.SCIPY: 3>, 'y_valid': <_SavedAsProtocol.NUMPY: 2>, 'sample_weight': <_SavedAsProtocol.PICKLE: 1>, 'sample_weight_valid': <_SavedAsProtocol.PICKLE: 1>, 'x_raw_column_names': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits_indices': <_SavedAsProtocol.PICKLE: 1>, 'transformers': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits': <_SavedAsProtocol.PICKLE: 1>, '_on_demand_pickle_keys': <_SavedAsProtocol.PICKLE: 1>}
+2020-11-08 02:02:18.427 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_serialize_and_upload, HowEnded=Success, Duration=223.48[ms]
+2020-11-08 02:02:18.428 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=add, HowEnded=Success, Duration=223.83[ms]
+2020-11-08 02:02:18.428 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:128 - Adding data to Azure file store cache
+2020-11-08 02:02:18.428 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: add
+2020-11-08 02:02:18.428 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:132 - Uploading key: timeseries
+2020-11-08 02:02:18.428 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _serialize_and_upload
+2020-11-08 02:02:18.524 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _persist_saved_as_file
+2020-11-08 02:02:18.619 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_persist_saved_as_file, HowEnded=Success, Duration=94.73[ms]
+2020-11-08 02:02:18.625 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore._persist_saved_as_file:288 - Persisted saved_as file. The saved_as object is: {'X': <_SavedAsProtocol.SCIPY: 3>, 'y': <_SavedAsProtocol.NUMPY: 2>, 'X_valid': <_SavedAsProtocol.SCIPY: 3>, 'y_valid': <_SavedAsProtocol.NUMPY: 2>, 'sample_weight': <_SavedAsProtocol.PICKLE: 1>, 'sample_weight_valid': <_SavedAsProtocol.PICKLE: 1>, 'x_raw_column_names': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits_indices': <_SavedAsProtocol.PICKLE: 1>, 'transformers': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits': <_SavedAsProtocol.PICKLE: 1>, '_on_demand_pickle_keys': <_SavedAsProtocol.PICKLE: 1>, 'timeseries': <_SavedAsProtocol.PICKLE: 1>}
+2020-11-08 02:02:18.631 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_serialize_and_upload, HowEnded=Success, Duration=202.58[ms]
+2020-11-08 02:02:18.631 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=add, HowEnded=Success, Duration=202.99[ms]
+2020-11-08 02:02:18.632 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:128 - Adding data to Azure file store cache
+2020-11-08 02:02:18.632 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: add
+2020-11-08 02:02:18.632 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:132 - Uploading key: timeseries_param_dict
+2020-11-08 02:02:18.633 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _serialize_and_upload
+2020-11-08 02:02:18.797 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _persist_saved_as_file
+2020-11-08 02:02:18.889 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_persist_saved_as_file, HowEnded=Success, Duration=92.47[ms]
+2020-11-08 02:02:18.895 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore._persist_saved_as_file:288 - Persisted saved_as file. The saved_as object is: {'X': <_SavedAsProtocol.SCIPY: 3>, 'y': <_SavedAsProtocol.NUMPY: 2>, 'X_valid': <_SavedAsProtocol.SCIPY: 3>, 'y_valid': <_SavedAsProtocol.NUMPY: 2>, 'sample_weight': <_SavedAsProtocol.PICKLE: 1>, 'sample_weight_valid': <_SavedAsProtocol.PICKLE: 1>, 'x_raw_column_names': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits_indices': <_SavedAsProtocol.PICKLE: 1>, 'transformers': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits': <_SavedAsProtocol.PICKLE: 1>, '_on_demand_pickle_keys': <_SavedAsProtocol.PICKLE: 1>, 'timeseries': <_SavedAsProtocol.PICKLE: 1>, 'timeseries_param_dict': <_SavedAsProtocol.PICKLE: 1>}
+2020-11-08 02:02:18.901 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_serialize_and_upload, HowEnded=Success, Duration=268.28[ms]
+2020-11-08 02:02:18.901 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=add, HowEnded=Success, Duration=268.81[ms]
+2020-11-08 02:02:18.901 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:128 - Adding data to Azure file store cache
+2020-11-08 02:02:18.902 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: add
+2020-11-08 02:02:18.902 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:132 - Uploading key: data_snapshot_str
+2020-11-08 02:02:18.902 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _serialize_and_upload
+2020-11-08 02:02:19.026 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _persist_saved_as_file
+2020-11-08 02:02:19.115 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_persist_saved_as_file, HowEnded=Success, Duration=88.72[ms]
+2020-11-08 02:02:19.121 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore._persist_saved_as_file:288 - Persisted saved_as file. The saved_as object is: {'X': <_SavedAsProtocol.SCIPY: 3>, 'y': <_SavedAsProtocol.NUMPY: 2>, 'X_valid': <_SavedAsProtocol.SCIPY: 3>, 'y_valid': <_SavedAsProtocol.NUMPY: 2>, 'sample_weight': <_SavedAsProtocol.PICKLE: 1>, 'sample_weight_valid': <_SavedAsProtocol.PICKLE: 1>, 'x_raw_column_names': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits_indices': <_SavedAsProtocol.PICKLE: 1>, 'transformers': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits': <_SavedAsProtocol.PICKLE: 1>, '_on_demand_pickle_keys': <_SavedAsProtocol.PICKLE: 1>, 'timeseries': <_SavedAsProtocol.PICKLE: 1>, 'timeseries_param_dict': <_SavedAsProtocol.PICKLE: 1>, 'data_snapshot_str': <_SavedAsProtocol.PICKLE: 1>}
+2020-11-08 02:02:19.127 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_serialize_and_upload, HowEnded=Success, Duration=224.24[ms]
+2020-11-08 02:02:19.127 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=add, HowEnded=Success, Duration=225.02[ms]
+2020-11-08 02:02:19.127 - INFO - 119 - azureml.automl.runtime.data_transformation.complete_featurization:567 - The size of transformed data is: 8054329
+2020-11-08 02:02:19.127 - INFO - 119 - azureml.train.automl.runtime._automl_job_phases.utilities._log_activity:70 - ActivityCompleted: Activity=Beginning full featurization logic., HowEnded=Success, Duration=10481.0[ms]
+2020-11-08 02:02:19.127 - INFO - 119 - azureml.train.automl.runtime._automl_job_phases.utilities._log_activity:70 - ActivityCompleted: Activity=Getting transformed data context., HowEnded=Success, Duration=10481.24[ms]
+2020-11-08 02:02:19.127 - INFO - 119 - azureml.train.automl.runtime._automl_job_phases.utilities.set_problem_info_for_featurized_data:113 - Setting problem info.
+2020-11-08 02:02:19.128 - INFO - 119 - azureml.train.automl.runtime._automl._set_problem_info:78 - Logging dataset information for AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_featurize_tr
+2020-11-08 02:02:19.128 - INFO - 119 - azureml.automl.runtime.shared.runtime_logging_utilities.log_data_info:43 - [ParentRunId:AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_featurize_tr]X datatype is <class 'scipy.sparse.csr.csr_matrix'>, shape is (29655, 132), datasize is 7010068.
+2020-11-08 02:02:19.128 - INFO - 119 - azureml.automl.runtime.shared.runtime_logging_utilities.log_data_info:43 - [ParentRunId:AutoML_7358d59d-cf66-47f0-9e7b-af038df05956_featurize_tr]y datatype is <class 'numpy.ndarray'>, shape is (29655,), datasize is 237336.
+2020-11-08 02:02:19.129 - INFO - 119 - azureml.automl.runtime.data_transformation._check_if_y_label_has_single_occurrence_class:491 - Checking single occurrence class condition for entire training data
+2020-11-08 02:02:19.284 - INFO - 119 - azureml.automl.runtime.training_utilities._get_client_dataset:1458 - Created ClientDataset.
+2020-11-08 02:02:19.285 - INFO - 119 - azureml.automl.runtime.training_utilities._get_client_dataset:1487 - Parsing simple train validate dataset.
+2020-11-08 02:02:19.289 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:128 - Adding data to Azure file store cache
+2020-11-08 02:02:19.290 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: add
+2020-11-08 02:02:19.290 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:132 - Uploading key: class_labels
+2020-11-08 02:02:19.290 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _serialize_and_upload
+2020-11-08 02:02:19.443 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _persist_saved_as_file
+2020-11-08 02:02:19.541 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_persist_saved_as_file, HowEnded=Success, Duration=98.34[ms]
+2020-11-08 02:02:19.547 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore._persist_saved_as_file:288 - Persisted saved_as file. The saved_as object is: {'X': <_SavedAsProtocol.SCIPY: 3>, 'y': <_SavedAsProtocol.NUMPY: 2>, 'X_valid': <_SavedAsProtocol.SCIPY: 3>, 'y_valid': <_SavedAsProtocol.NUMPY: 2>, 'sample_weight': <_SavedAsProtocol.PICKLE: 1>, 'sample_weight_valid': <_SavedAsProtocol.PICKLE: 1>, 'x_raw_column_names': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits_indices': <_SavedAsProtocol.PICKLE: 1>, 'transformers': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits': <_SavedAsProtocol.PICKLE: 1>, '_on_demand_pickle_keys': <_SavedAsProtocol.PICKLE: 1>, 'timeseries': <_SavedAsProtocol.PICKLE: 1>, 'timeseries_param_dict': <_SavedAsProtocol.PICKLE: 1>, 'data_snapshot_str': <_SavedAsProtocol.PICKLE: 1>, 'class_labels': <_SavedAsProtocol.NUMPY: 2>}
+2020-11-08 02:02:19.553 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_serialize_and_upload, HowEnded=Success, Duration=262.24[ms]
+2020-11-08 02:02:19.553 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=add, HowEnded=Success, Duration=262.95[ms]
+2020-11-08 02:02:19.553 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:128 - Adding data to Azure file store cache
+2020-11-08 02:02:19.554 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: add
+2020-11-08 02:02:19.554 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:132 - Uploading key: train indices
+2020-11-08 02:02:19.554 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _serialize_and_upload
+2020-11-08 02:02:19.629 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _persist_saved_as_file
+2020-11-08 02:02:19.721 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_persist_saved_as_file, HowEnded=Success, Duration=92.2[ms]
+2020-11-08 02:02:19.729 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore._persist_saved_as_file:288 - Persisted saved_as file. The saved_as object is: {'X': <_SavedAsProtocol.SCIPY: 3>, 'y': <_SavedAsProtocol.NUMPY: 2>, 'X_valid': <_SavedAsProtocol.SCIPY: 3>, 'y_valid': <_SavedAsProtocol.NUMPY: 2>, 'sample_weight': <_SavedAsProtocol.PICKLE: 1>, 'sample_weight_valid': <_SavedAsProtocol.PICKLE: 1>, 'x_raw_column_names': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits_indices': <_SavedAsProtocol.PICKLE: 1>, 'transformers': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits': <_SavedAsProtocol.PICKLE: 1>, '_on_demand_pickle_keys': <_SavedAsProtocol.PICKLE: 1>, 'timeseries': <_SavedAsProtocol.PICKLE: 1>, 'timeseries_param_dict': <_SavedAsProtocol.PICKLE: 1>, 'data_snapshot_str': <_SavedAsProtocol.PICKLE: 1>, 'class_labels': <_SavedAsProtocol.NUMPY: 2>, 'train indices': <_SavedAsProtocol.NUMPY: 2>}
+2020-11-08 02:02:19.735 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_serialize_and_upload, HowEnded=Success, Duration=181.01[ms]
+2020-11-08 02:02:19.735 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=add, HowEnded=Success, Duration=181.46[ms]
+2020-11-08 02:02:19.735 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:128 - Adding data to Azure file store cache
+2020-11-08 02:02:19.736 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: add
+2020-11-08 02:02:19.736 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:132 - Uploading key: dataset_cached_keys
+2020-11-08 02:02:19.737 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _serialize_and_upload
+2020-11-08 02:02:19.835 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _persist_saved_as_file
+2020-11-08 02:02:19.932 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_persist_saved_as_file, HowEnded=Success, Duration=97.12[ms]
+2020-11-08 02:02:19.939 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore._persist_saved_as_file:288 - Persisted saved_as file. The saved_as object is: {'X': <_SavedAsProtocol.SCIPY: 3>, 'y': <_SavedAsProtocol.NUMPY: 2>, 'X_valid': <_SavedAsProtocol.SCIPY: 3>, 'y_valid': <_SavedAsProtocol.NUMPY: 2>, 'sample_weight': <_SavedAsProtocol.PICKLE: 1>, 'sample_weight_valid': <_SavedAsProtocol.PICKLE: 1>, 'x_raw_column_names': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits_indices': <_SavedAsProtocol.PICKLE: 1>, 'transformers': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits': <_SavedAsProtocol.PICKLE: 1>, '_on_demand_pickle_keys': <_SavedAsProtocol.PICKLE: 1>, 'timeseries': <_SavedAsProtocol.PICKLE: 1>, 'timeseries_param_dict': <_SavedAsProtocol.PICKLE: 1>, 'data_snapshot_str': <_SavedAsProtocol.PICKLE: 1>, 'class_labels': <_SavedAsProtocol.NUMPY: 2>, 'train indices': <_SavedAsProtocol.NUMPY: 2>, 'dataset_cached_keys': <_SavedAsProtocol.PICKLE: 1>}
+2020-11-08 02:02:19.945 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_serialize_and_upload, HowEnded=Success, Duration=208.68[ms]
+2020-11-08 02:02:19.945 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=add, HowEnded=Success, Duration=209.49[ms]
+2020-11-08 02:02:20.051 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:128 - Adding data to Azure file store cache
+2020-11-08 02:02:20.063 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: add
+2020-11-08 02:02:20.064 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore.add:132 - Uploading key: dataset_cached_object
+2020-11-08 02:02:20.064 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _serialize_and_upload
+2020-11-08 02:02:20.113 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:46 - ActivityStarted: _persist_saved_as_file
+2020-11-08 02:02:20.214 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_persist_saved_as_file, HowEnded=Success, Duration=100.75[ms]
+2020-11-08 02:02:20.221 - INFO - 119 - azureml.train.automl.runtime._azurefilecachestore._persist_saved_as_file:288 - Persisted saved_as file. The saved_as object is: {'X': <_SavedAsProtocol.SCIPY: 3>, 'y': <_SavedAsProtocol.NUMPY: 2>, 'X_valid': <_SavedAsProtocol.SCIPY: 3>, 'y_valid': <_SavedAsProtocol.NUMPY: 2>, 'sample_weight': <_SavedAsProtocol.PICKLE: 1>, 'sample_weight_valid': <_SavedAsProtocol.PICKLE: 1>, 'x_raw_column_names': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits_indices': <_SavedAsProtocol.PICKLE: 1>, 'transformers': <_SavedAsProtocol.PICKLE: 1>, 'cv_splits': <_SavedAsProtocol.PICKLE: 1>, '_on_demand_pickle_keys': <_SavedAsProtocol.PICKLE: 1>, 'timeseries': <_SavedAsProtocol.PICKLE: 1>, 'timeseries_param_dict': <_SavedAsProtocol.PICKLE: 1>, 'data_snapshot_str': <_SavedAsProtocol.PICKLE: 1>, 'class_labels': <_SavedAsProtocol.NUMPY: 2>, 'train indices': <_SavedAsProtocol.NUMPY: 2>, 'dataset_cached_keys': <_SavedAsProtocol.PICKLE: 1>, 'dataset_cached_object': <_SavedAsProtocol.PICKLE: 1>}
+2020-11-08 02:02:20.229 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=_serialize_and_upload, HowEnded=Success, Duration=165.03[ms]
+2020-11-08 02:02:20.230 - INFO - 119 - azureml.automl.runtime.shared.cache_store._log_activity:70 - ActivityCompleted: Activity=add, HowEnded=Success, Duration=166.2[ms]
+2020-11-08 02:02:20.230 - INFO - 119 - azureml.train.automl.runtime._remote_script._cache_dataset:765 - Successfully cached dataset.
+2020-11-08 02:02:20.230 - INFO - 119 - azureml.train.automl.runtime._remote_script._cache_dataset:770 - Preparation for run id AutoML_7358d59d-cf66-47f0-9e7b-af038df05956 finished successfully.
