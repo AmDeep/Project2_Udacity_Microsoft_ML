@@ -7,27 +7,29 @@ This project first begins with uploading the dataset and using the AutoML functi
 ## Architectural Diagram
 ![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/screen-shot-2020-09-15-at-12.36.11-pm.png)
 ## Step I:- Uploading Data and Authentication
+![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image1.PNG)
+![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image2.PNG)
 ## Step II:- Using AutoML and Generating Model
-## Step III:- Using AutoML and Generating Model
-## Step IV:- Model Deployment
-## Step V:- Enable Logging and Consuming Endpoints
-## Step VI:- Jupyter Notebook Coding
-## Step VII:- Publishing a Pipeline
+![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image3.PNG)
+![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image4.PNG)
+![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image5.PNG)
+## Step III:- Azure Authentication
+## Step IV:- Swagger UI
+![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image9.PNG)
+![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image10.PNG)
+## Step V:- Model Deployment
+![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image6.PNG)
+![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image7.PNG)
+![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image8.PNG)
+## Step VI:- Enable Logging and Consuming Endpoints
+## Step VII:- Jupyter Notebook Coding
+## Step VIII:- Publishing a Pipeline
 
 A short description of how to improve the project in the future
 Screenshots required with a short description to demonstrate key steps
 A link to the screencast video on YouTube (or a similar alternative streaming service)
 
-![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image1.PNG)
-![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image2.PNG)
-![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image3.PNG)
-![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image4.PNG)
-![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image5.PNG)
-![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image6.PNG)
-![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image7.PNG)
-![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image8.PNG)
-![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image9.PNG)
-![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image10.PNG)
+
 ![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image11.PNG)
 ![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image12.PNG)
 ![alt text](https://raw.githubusercontent.com/AmDeep/Project2_Udacity_Microsoft_ML/main/Images/Image13.PNG)
